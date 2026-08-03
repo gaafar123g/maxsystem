@@ -143,7 +143,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color:#D4641A;
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -196,7 +196,7 @@ h6,
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--primary);
+        background: #F47920;
         transition: .5s;
     }
 
@@ -256,7 +256,7 @@ h6,
     content: "";
     width: 150px;
     height: 5px;
-    left: 0;
+    left: 30%;
     bottom: 0;
     background: var(--primary);
     border-radius: 2px;
