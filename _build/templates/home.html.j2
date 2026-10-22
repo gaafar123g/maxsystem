@@ -1,0 +1,259 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, cta_band with context %}
+
+{% block jsonld %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": site ~ "/#website",
+  "url": site ~ ("/en/" if lang == "en" else "/"),
+  "name": d.brand_name,
+  "inLanguage": lang,
+  "publisher": {"@id": site ~ "/#organization"}
+} | tojson }}</script>
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": lang,
+  "mainEntity": faq_ld
+} | tojson }}</script>
+{% endblock %}
+
+{% block content %}
+
+{# ═════════ HERO: full-width slider ═════════ #}
+{% set slide_chips = [['C#', 'SQL', 'Angular', 'Next.js'], ['Meta Ads', 'Google Ads', 'TikTok Ads', 'Snapchat Ads'], ['SQL', 'Power BI', 'Google Analytics 4', 'Excel']] %}
+<section class="fs-hero" data-slider role="region" aria-roledescription="carousel" aria-label="{{ d.hero2.slidesLabel }}">
+  {% for n in ['web', 'marketing', 'data'] %}
+  {% set sl = d.hero2.slides[loop.index0] %}
+  <div class="fs-slide fs-{{ n }}{{ ' is-active' if loop.first }}" role="group" aria-roledescription="slide" aria-label="{{ loop.index }} / 3" aria-hidden="{{ 'false' if loop.first else 'true' }}">
+    <div class="fs-bg" aria-hidden="true"></div>
+    <div class="container fs-inner">
+      <div class="row align-items-center g-4 g-lg-5 w-100 mx-0">
+        <div class="col-lg-6 fs-text">
+          <div class="d-flex flex-wrap gap-2 fs-pills"><span class="fs-pill"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> {{ d.hero2.badge }}</span><span class="fs-pill fs-pill-accent"><i class="bi bi-patch-check-fill" aria-hidden="true"></i> {{ d.hero2.since }}</span></div>
+          <p class="fs-kicker">{{ sl.kicker }}</p>
+          {% if loop.first %}
+          <h1 class="fs-title">{{ d.hero.titleStart }} <span class="fs-hl">{{ d.hero.titleHighlight }}</span> {{ d.hero.titleEnd }}</h1>
+          <p class="fs-lead">{{ d.hero.subtitle }}</p>
+          <div class="d-flex flex-column flex-sm-row gap-3 mt-4 fs-actions">
+            <a class="btn btn-cta btn-lg" href="{{ u('contact.html') }}">{{ d.hero.primaryCta }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></a>
+            <a class="btn btn-ghost-light btn-lg" href="{{ u('services.html') }}">{{ d.hero.secondaryCta }}</a>
+          </div>
+          {% else %}
+          <h2 class="fs-title">{{ sl.title }} <span class="fs-hl">{{ sl.hl }}</span></h2>
+          <p class="fs-lead">{{ sl.text }}</p>
+          <div class="d-flex flex-column flex-sm-row gap-3 mt-4 fs-actions">
+            <a class="btn btn-cta btn-lg" href="{{ u(sl.href) }}">{{ sl.cta }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></a>
+            <a class="btn btn-ghost-light btn-lg" href="{{ u('contact.html') }}">{{ d.hero.primaryCta }}</a>
+          </div>
+          {% endif %}
+          <ul class="fs-chips" dir="ltr">{% for c in slide_chips[loop.index0] %}<li>{{ c }}</li>{% endfor %}</ul>
+        </div>
+        <div class="col-lg-6 fs-media">
+          <figure class="fs-figure">
+            <img src="{{ A }}assets/img/slides/{{ n }}.svg" width="800" height="600" alt="{{ d.hero2.slideAlts[loop.index0] }}"{{ ' fetchpriority="high"' if loop.first else ' loading="lazy"' }}>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <button type="button" class="fs-arrow fs-prev" data-slider-prev aria-label="{{ d.hero2.prev }}"><i class="bi bi-chevron-{{ 'right' if lang == 'ar' else 'left' }}" aria-hidden="true"></i></button>
+  <button type="button" class="fs-arrow fs-next" data-slider-next aria-label="{{ d.hero2.next }}"><i class="bi bi-chevron-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></button>
+  <div class="fs-dots" role="tablist">
+    {% for i in range(3) %}<button type="button" class="fs-dot{{ ' is-active' if loop.first }}" data-slider-dot="{{ i }}" aria-label="{{ d.hero2.goTo }} {{ i + 1 }}"><span></span></button>{% endfor %}
+  </div>
+</section>
+
+{# ═════════ MARKETS STRIP ═════════ #}
+<section class="markets-strip" aria-label="{{ d.markets.strip }}">
+  <div class="container">
+    <div class="strip-inner" data-reveal>
+      <strong class="strip-label"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> {{ d.markets.strip }}</strong>
+      <ul class="strip-list">
+        <li class="strip-country">{{ d.markets.sa.short }}</li>
+        <li class="strip-sep" aria-hidden="true"></li>
+        <li class="strip-country">{{ d.markets.eg.short }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{# ═════════ SERVICES ═════════ #}
+<section class="section" id="services">
+  <div class="container">
+    {{ heading(d.servicesSection.eyebrow, d.servicesSection.title, d.servicesSection.subtitle) }}
+    <ul class="row g-4 mt-4 list-unstyled" data-stagger>
+      {% for s in services %}
+      <li class="col-md-6 col-xl-3" data-reveal="up">
+        <article class="card-x service-card h-100">
+          <span class="icon-box"><i class="bi {{ icons[s.icon] }}" aria-hidden="true"></i></span>
+          <h3><a class="stretched-link" href="{{ u('service-' ~ s.slug ~ '.html') }}">{{ s.title[lang] }}</a></h3>
+          <p>{{ s.short[lang] }}</p>
+          <ul class="tick-list">
+            {% for b in s.benefits[:3] %}<li><i class="bi bi-check2" aria-hidden="true"></i> {{ b[lang] }}</li>{% endfor %}
+          </ul>
+          <span class="more-link">{{ d.servicesSection.viewService }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></span>
+        </article>
+      </li>
+      {% endfor %}
+      <li class="col-md-6 col-xl-3" data-reveal="up">
+        <div class="card-x card-dark h-100 d-flex flex-column justify-content-between">
+          <div>
+            <h3>{{ d.servicesSection.ctaCardTitle }}</h3>
+            <p>{{ d.servicesSection.ctaCardText }}</p>
+          </div>
+          <a class="btn btn-cta w-100 mt-3" href="{{ u('contact.html') }}">{{ d.nav.consultation }}</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+{# ═════════ MARKETS: SAUDI + EGYPT ═════════ #}
+<section class="section section-alt" id="markets">
+  <div class="container">
+    {{ heading(d.markets.eyebrow, d.markets.title, d.markets.subtitle) }}
+    <div class="row g-4 mt-4">
+      {% for code, m, dirn in [('sa', d.markets.sa, 'start'), ('eg', d.markets.eg, 'end')] %}
+      <div class="col-lg-6" data-reveal="{{ dirn }}">
+        <article class="market-card market-{{ code }} h-100">
+          <header>
+            <span class="market-flag" aria-hidden="true">{{ code | upper }}</span>
+            <div>
+              <h3>{{ m.name }}</h3>
+            </div>
+          </header>
+          <ul class="tick-list tick-lg">
+            {% for p in m.points %}<li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> {{ p }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="market-note" data-reveal><i class="bi bi-info-circle" aria-hidden="true"></i> {{ d.markets.note }}</p>
+    <div class="text-center mt-4" data-reveal><a class="btn btn-brand btn-lg" href="{{ u('contact.html') }}">{{ d.markets.cta }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></a></div>
+  </div>
+</section>
+
+{# ═════════ WHY ═════════ #}
+<section class="section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="sticky-lg-top why-sticky">
+          {{ heading(d.why.eyebrow, d.why.title, d.why.subtitle, align='start') }}
+          <a class="btn btn-brand btn-lg mt-4" href="{{ u('contact.html') }}" data-reveal data-delay="3">{{ d.why.cta }}</a>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <ul class="row g-3 list-unstyled mb-0" data-stagger>
+          {% for w in why_items %}
+          <li class="col-md-6 {{ 'col-12' if loop.last }}" data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+            <div class="card-x why-card h-100">
+              <span class="icon-box icon-grad"><i class="bi {{ icons_why[w.icon] if w.icon in icons_why else icons[w.icon] }}" aria-hidden="true"></i></span>
+              <div><h3>{{ w.title[lang] }}</h3><p>{{ w.text[lang] }}</p></div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ═════════ PROCESS ═════════ #}
+<section class="section section-dark">
+  <div class="dark-bg" aria-hidden="true"></div>
+  <div class="container position-relative">
+    {{ heading(d.process.eyebrow, d.process.title, d.process.subtitle, light=True) }}
+    <ol class="row g-4 mt-4 list-unstyled process-list" data-stagger>
+      {% for s in process_steps %}
+      <li class="col-md-6 col-lg-4" data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+        <div class="process-card h-100">
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="step-num" dir="ltr">{{ '%02d' | format(loop.index) }}</span>
+            <span class="step-label">{{ d.process.step }} {{ loop.index }}</span>
+          </div>
+          <h3>{{ s.title[lang] }}</h3>
+          <p>{{ s.text[lang] }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+{# ═════════ PROJECTS (demo) ═════════ #}
+<section class="section">
+  <div class="container">
+    {{ heading(d.projectsSection.eyebrow, d.projectsSection.title, d.projectsSection.subtitle) }}
+    <div class="filter-bar" role="group" aria-label="{{ d.projectsSection.filterLabel }}" data-reveal data-filter-group="projects">
+      <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">{{ d.common.all }}</button>
+      {% for c in project_categories %}<button type="button" class="filter-btn" data-filter="{{ c.key }}" aria-pressed="false">{{ c.label[lang] }}</button>
+      {% endfor %}
+    </div>
+    <ul class="row g-4 mt-2 list-unstyled" data-filter-items="projects">
+      {% for p in projects %}
+      <li class="col-md-6 col-lg-4" data-category="{{ p.category }}">
+        <article class="card-x project-card h-100">
+          <div class="project-thumb"><i class="bi {{ icons[p.icon] }}" aria-hidden="true"></i><span class="demo-badge">{{ d.common.demoBadge }}</span></div>
+          <div class="project-body">
+            <span class="project-cat">{% for c in project_categories if c.key == p.category %}{{ c.label[lang] }}{% endfor %}</span>
+            <h3>{{ p.title[lang] }}</h3>
+            <p>{{ p.summary[lang] }}</p>
+            <ul class="tag-list" dir="ltr">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="text-center mt-3"><a class="btn btn-outline-brand" href="{{ u('projects.html') }}">{{ d.common.viewAllProjects }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></a></div>
+  </div>
+</section>
+
+{# ═════════ TECHNOLOGY ═════════ #}
+<section class="section section-alt">
+  <div class="container">
+    {{ heading(d.tech.eyebrow, d.tech.title, d.tech.subtitle) }}
+    <ul class="row g-4 mt-4 list-unstyled" data-stagger>
+      {% for g in tech_groups %}
+      <li class="col-md-6" data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+        <div class="card-x h-100">
+          <h3 class="h6 fw-bold mb-3">{{ g.title[lang] }}</h3>
+          <ul class="tech-chips" dir="ltr">{% for i in g['items'] %}<li>{{ i }}</li>{% endfor %}</ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ═════════ FAQ ═════════ #}
+<section class="section section-alt">
+  <div class="container">
+    {{ heading(d.faq.eyebrow, d.faq.title, d.faq.subtitle) }}
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8" data-reveal>
+        <div class="accordion faq" id="faq">
+          {% for f in faqs %}
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ loop.index }}" aria-expanded="false" aria-controls="faq-{{ loop.index }}">{{ f.q[lang] }}</button>
+            </h3>
+            <div id="faq-{{ loop.index }}" class="accordion-collapse collapse" data-bs-parent="#faq">
+              <div class="accordion-body">{{ f.a[lang] }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ cta_band() }}
+{% endblock %}

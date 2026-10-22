@@ -1,0 +1,154 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero, cta_band with context %}
+
+{% block jsonld %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": service.title[lang],
+  "description": service.intro[lang],
+  "serviceType": service.title[lang],
+  "url": canonical,
+  "provider": {"@id": site ~ "/#organization"},
+  "areaServed": [{"@type": "Country", "name": "Saudi Arabia"}, {"@type": "Country", "name": "Egypt"}],
+  "inLanguage": lang,
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": service.title[lang],
+    "itemListElement": offers_ld
+  }
+} | tojson }}</script>
+{% endblock %}
+
+{% block content %}
+{% call page_hero(service.title[lang], service.intro[lang]) %}
+<div class="d-flex flex-column flex-sm-row gap-3 mt-4" data-reveal data-delay="3">
+  <a class="btn btn-cta btn-lg" href="{{ u('contact.html') }}?service={{ service.slug }}">{{ d.servicePage.requestService }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></a>
+  <a class="btn btn-wa btn-lg" data-wa hidden target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> {{ d.common.whatsapp }}<span class="visually-hidden"> {{ d.a11y.externalLink }}</span></a>
+</div>
+{% endcall %}
+
+<section class="section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <h2 class="section-title text-start" data-reveal="start">{{ d.servicePage.businessValue }}</h2>
+        <p class="lead-text" data-reveal="start" data-delay="1">{{ service.value[lang] }}</p>
+      </div>
+      <div class="col-lg-5" data-reveal="end">
+        <ul class="benefit-card">
+          {% for b in service.benefits %}<li><span class="tick-dot"><i class="bi bi-check2" aria-hidden="true"></i></span> {{ b[lang] }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title text-start" data-reveal="start">{{ d.servicePage.whatWeOffer }}</h2>
+    <ul class="row g-4 mt-2 list-unstyled" data-stagger>
+      {% for it in service['items'] %}
+      <li class="col-md-6 col-lg-4" data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+        <div class="card-x h-100"><h3 class="h6 fw-bold">{{ it.title[lang] }}</h3><p class="mb-0 text-muted-2">{{ it.desc[lang] }}</p></div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{% if service.platforms %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title text-start" data-reveal="start">{{ d.servicePage.platforms }}</h2>
+    <ul class="row g-4 mt-2 list-unstyled" data-stagger>
+      {% for p in service.platforms %}
+      <li class="col-md-6" data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+        <div class="card-x platform-card h-100"><h3 class="h5 fw-bold">{{ p.title[lang] }}</h3><p class="mb-0 text-muted-2">{{ p.desc[lang] }}</p></div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if service.coverage or service.options or service.useCases %}
+<section class="section section-alt">
+  <div class="container">
+    <div class="row g-5">
+      {% for title, items in [(d.servicePage.coverage, service.coverage), (d.servicePage.options, service.options), (d.servicePage.useCases, service.useCases)] if items %}
+      <div class="col-lg-6">
+        <h2 class="section-title text-start h3" data-reveal="start">{{ title }}</h2>
+        <ul class="check-cards" data-stagger>
+          {% for e in items %}<li data-reveal="up"><i class="bi bi-check-circle" aria-hidden="true"></i> {{ e[lang] }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if service.tools %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title text-start" data-reveal="start">{{ d.servicePage.tools }}</h2>
+    <ul class="tech-chips mt-3" dir="ltr" data-reveal>{% for t in service.tools %}<li>{{ t }}</li>{% endfor %}</ul>
+  </div>
+</section>
+{% endif %}
+
+{% if service.notices %}
+<section class="section pt-0">
+  <div class="container">
+    <h2 class="section-title text-start" data-reveal="start">{{ d.servicePage.importantNote }}</h2>
+    <div class="mt-3 d-grid gap-3">
+      {% for n in service.notices %}
+      <div class="notice" data-reveal="up"><i class="bi bi-exclamation-triangle" aria-hidden="true"></i><div><h3>{{ n.title[lang] }}</h3><p>{{ n.body[lang] }}</p></div></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section section-dark">
+  <div class="dark-bg" aria-hidden="true"></div>
+  <div class="container position-relative">
+    {{ heading(d.process.eyebrow, d.process.title, d.process.subtitle, light=True) }}
+    <ol class="row g-4 mt-4 list-unstyled process-list" data-stagger>
+      {% for s in process_steps %}
+      <li class="col-md-6 col-lg-4" data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+        <div class="process-card h-100">
+          <div class="d-flex justify-content-between align-items-center"><span class="step-num" dir="ltr">{{ '%02d' | format(loop.index) }}</span><span class="step-label">{{ d.process.step }} {{ loop.index }}</span></div>
+          <h3>{{ s.title[lang] }}</h3><p>{{ s.text[lang] }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+{% if related %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title text-start" data-reveal="start">{{ d.servicePage.relatedServices }}</h2>
+    <ul class="row g-4 mt-2 list-unstyled" data-stagger>
+      {% for r in related %}
+      <li class="col-md-6 col-lg-4" data-reveal="up">
+        <article class="card-x service-card h-100">
+          <span class="icon-box"><i class="bi {{ icons[r.icon] }}" aria-hidden="true"></i></span>
+          <h3><a class="stretched-link" href="{{ u('service-' ~ r.slug ~ '.html') }}">{{ r.title[lang] }}</a></h3>
+          <p>{{ r.short[lang] }}</p>
+          <span class="more-link">{{ d.servicesSection.viewService }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></span>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{{ cta_band() }}
+{% endblock %}

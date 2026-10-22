@@ -1,0 +1,72 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero, cta_band with context %}
+
+{% block content %}
+{{ page_hero(d.about.title, d.about.subtitle) }}
+
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <h2 class="section-title text-start" data-reveal="start">{{ d.about.introTitle }}</h2>
+        {% for p in d.about.intro %}<p class="lead-text" data-reveal="start" data-delay="{{ loop.index }}">{{ p }}</p>
+        {% endfor %}
+        <ul class="city-pills mt-4" data-reveal data-delay="3">
+          <li class="since-pill"><i class="bi bi-patch-check-fill" aria-hidden="true"></i> {{ d.hero2.sinceLong }}</li>
+          <li><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> {{ d.markets.sa.short }}</li>
+          <li><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> {{ d.markets.eg.short }}</li>
+        </ul>
+      </div>
+      <div class="col-lg-5" data-reveal="end">
+        <div class="card-x logo-card">
+          <picture>
+            <source srcset="{{ A }}assets/img/logo.webp" type="image/webp">
+            <img src="{{ A }}assets/img/logo.png" width="320" height="241" loading="lazy" alt="{{ d.brand.logoAlt }}">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6" data-reveal="start">
+        <div class="card-x h-100 mv-card">
+          <span class="icon-box icon-grad"><i class="bi bi-compass" aria-hidden="true"></i></span>
+          <h2>{{ d.about.missionTitle }}</h2>
+          <p>{{ d.about.mission }}</p>
+        </div>
+      </div>
+      <div class="col-md-6" data-reveal="end">
+        <div class="card-x h-100 mv-card">
+          <span class="icon-box icon-orange"><i class="bi bi-people" aria-hidden="true"></i></span>
+          <h2>{{ d.about.approachTitle }}</h2>
+          <p>{{ d.about.approach }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title text-center" data-reveal>{{ d.about.valuesTitle }}</h2>
+    <ul class="row g-4 mt-3 list-unstyled" data-stagger>
+      {% set vicons = ['bi-eye', 'bi-stars', 'bi-rulers', 'bi-shield-check'] %}
+      {% for v in d.about['values'] %}
+      <li class="col-sm-6 col-lg-3" data-reveal="{{ 'down' if loop.index is odd else 'up' }}">
+        <div class="card-x h-100">
+          <span class="icon-box"><i class="bi {{ vicons[loop.index0 % 4] }}" aria-hidden="true"></i></span>
+          <h3 class="h5 fw-bold mt-3">{{ v.title }}</h3>
+          <p class="mb-0 text-muted-2">{{ v.text }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{{ cta_band() }}
+{% endblock %}

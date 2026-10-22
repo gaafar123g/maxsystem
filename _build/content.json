@@ -1,0 +1,2863 @@
+{
+ "dict": {
+  "ar": {
+   "brand": {
+    "tagline": "حلول برمجية وتسويق رقمي وتحليل بيانات",
+    "logoAlt": "شعار ماكس سيستم للبرمجيات"
+   },
+   "a11y": {
+    "skip": "تخطَّ إلى المحتوى الرئيسي",
+    "loading": "جارٍ تحميل الموقع",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "mainNav": "التنقل الرئيسي",
+    "breadcrumb": "مسار التنقل",
+    "switchLanguage": "التبديل إلى اللغة الإنجليزية",
+    "externalLink": "(يفتح في نافذة جديدة)",
+    "floatingContact": "وسائل التواصل السريع",
+    "openSocial": "عرض حساباتنا على وسائل التواصل",
+    "closeSocial": "إخفاء حسابات التواصل",
+    "expand": "توسيع",
+    "collapse": "طي"
+   },
+   "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "projects": "أعمالنا",
+    "blog": "المدونة",
+    "contact": "تواصل معنا",
+    "consultation": "اطلب استشارة",
+    "allServices": "عرض كل الخدمات",
+    "servicesMenuTitle": "خدماتنا الرقمية",
+    "servicesMenuText": "حلول متكاملة تغطي البرمجة والتسويق والبيانات.",
+    "language": "English",
+    "quickContact": "تواصل سريع"
+   },
+   "common": {
+    "learnMore": "اعرف المزيد",
+    "readMore": "اقرأ المزيد",
+    "viewAll": "عرض الكل",
+    "viewAllProjects": "استعرض كل الأعمال",
+    "startProject": "ابدأ مشروعك الآن",
+    "discoverServices": "اكتشف خدماتنا",
+    "contactUs": "تواصل معنا",
+    "requestQuote": "اطلب عرض سعر",
+    "whatsapp": "واتساب",
+    "call": "اتصال",
+    "email": "البريد الإلكتروني",
+    "demoBadge": "محتوى توضيحي",
+    "all": "الكل",
+    "home": "الرئيسية",
+    "backToHome": "العودة إلى الرئيسية"
+   },
+   "hero": {
+    "eyebrow": "حلول رقمية متكاملة للشركات",
+    "titleStart": "نحوّل أفكارك إلى",
+    "titleHighlight": "حلول رقمية",
+    "titleEnd": "تصنع الفرق",
+    "subtitle": "نساعد الشركات على النمو من خلال البرمجيات الذكية، والتسويق الإلكتروني، وتحليل البيانات، وحلول الويب المتكاملة.",
+    "primaryCta": "ابدأ مشروعك الآن",
+    "secondaryCta": "اكتشف خدماتنا",
+    "points": [
+     "حلول مخصصة لاحتياج مشروعك",
+     "قرارات مبنية على البيانات",
+     "تواصل شفاف ومستمر"
+    ],
+    "visualAlt": "رسم توضيحي لوحة تحكم وتحليلات وتطوير برمجي",
+    "chips": {
+     "web": "تطوير الويب",
+     "marketing": "التسويق الرقمي",
+     "data": "تحليل البيانات",
+     "seo": "تحسين محركات البحث"
+    }
+   },
+   "servicesSection": {
+    "eyebrow": "خدماتنا",
+    "title": "حلول رقمية تغطي كل ما يحتاجه مشروعك",
+    "subtitle": "من بناء الموقع إلى قياس النتائج: فريق واحد وخطة متكاملة تسير في اتجاه واحد.",
+    "viewService": "تفاصيل الخدمة",
+    "ctaCardTitle": "لست متأكدًا من الخدمة المناسبة؟",
+    "ctaCardText": "احجز استشارة ونساعدك في اختيار الحل الأنسب لأهدافك وميزانيتك."
+   },
+   "why": {
+    "eyebrow": "لماذا ماكس سيستم؟",
+    "title": "شريك رقمي يجمع بين التقنية والتسويق والبيانات",
+    "subtitle": "نعمل بمنهجية واضحة تضع هدف مشروعك أولًا، وتقيس ما نفعله لنتحسّن باستمرار.",
+    "cta": "ناقش مشروعك معنا"
+   },
+   "process": {
+    "eyebrow": "آلية العمل",
+    "title": "رحلة واضحة من الفكرة إلى النتائج",
+    "subtitle": "ست مراحل مرتبة، تعرف في كل منها ماذا يحدث وما المطلوب منك.",
+    "step": "المرحلة"
+   },
+   "projectsSection": {
+    "eyebrow": "أعمالنا",
+    "title": "نماذج من أنواع المشاريع التي ننفذها",
+    "subtitle": "سيتم استبدال هذه النماذج التوضيحية بمشاريع حقيقية فور إتاحتها للنشر.",
+    "demoNote": "محتوى توضيحي: هذه النماذج ليست مشاريع عملاء فعلية.",
+    "noProjects": "لا توجد مشاريع في هذا التصنيف.",
+    "filterLabel": "تصفية المشاريع حسب التصنيف"
+   },
+   "tech": {
+    "eyebrow": "التقنيات والأدوات",
+    "title": "منصات وأدوات نعمل بها",
+    "subtitle": "تقنيات نستخدمها في البناء والإعلان والتحليل والقياس."
+   },
+   "testimonials": {
+    "eyebrow": "آراء العملاء",
+    "title": "ماذا يقول عملاؤنا",
+    "placeholderBadge": "نموذج مكان — سيُستبدل برأي عميل حقيقي",
+    "placeholderText": "سيظهر هنا رأي عميل حقيقي بعد الحصول على موافقته على النشر.",
+    "placeholderName": "اسم العميل",
+    "placeholderRole": "المسمى الوظيفي · الشركة"
+   },
+   "faq": {
+    "eyebrow": "الأسئلة الشائعة",
+    "title": "إجابات عن أكثر ما يُسأل عنه",
+    "subtitle": "لم تجد إجابة سؤالك؟ تواصل معنا وسنوضح لك بكل سرور."
+   },
+   "cta": {
+    "title": "جاهز لتطوير أعمالك رقميًا؟",
+    "text": "دعنا نناقش أهدافك ونساعدك في اختيار الحلول المناسبة لنمو مشروعك.",
+    "contact": "تواصل معنا",
+    "quote": "اطلب عرض سعر",
+    "whatsapp": "أو راسلنا على واتساب"
+   },
+   "footer": {
+    "about": "نقدّم حلولًا برمجية وتسويقية وتحليلية تساعد الشركات على بناء حضور رقمي قوي واتخاذ قرارات أفضل.",
+    "quickLinks": "روابط سريعة",
+    "services": "خدماتنا",
+    "contact": "تواصل معنا",
+    "contactPending": "ستتم إضافة بيانات التواصل قريبًا.",
+    "followUs": "تابعنا",
+    "legal": "قانوني",
+    "privacy": "سياسة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "rights": "جميع الحقوق محفوظة.",
+    "phone": "الهاتف",
+    "whatsapp": "واتساب",
+    "email": "البريد الإلكتروني",
+    "address": "العنوان",
+    "hours": "ساعات العمل"
+   },
+   "servicesPage": {
+    "title": "خدماتنا",
+    "subtitle": "برمجة وتسويق وتحسين محركات البحث وتحليل بيانات وقياس أداء، في منظومة واحدة تخدم نمو عملك.",
+    "intro": "اختر الخدمة التي تهمك لتعرف تفاصيلها، أو تحدث إلينا لنقترح عليك المزيج الأنسب."
+   },
+   "servicePage": {
+    "whatWeOffer": "ما نقدمه",
+    "businessValue": "القيمة لعملك",
+    "options": "الخيارات المتاحة",
+    "platforms": "المنصات التي ندير حملاتها",
+    "coverage": "ما تشمله إدارة الحملات",
+    "useCases": "حالات استخدام",
+    "tools": "أدوات نعمل بها",
+    "importantNote": "ملاحظة مهمة",
+    "ourProcess": "كيف نعمل",
+    "relatedServices": "خدمات ذات صلة",
+    "requestService": "اطلب هذه الخدمة",
+    "allServices": "كل الخدمات"
+   },
+   "about": {
+    "title": "من نحن",
+    "subtitle": "نبني حلولًا رقمية تُقاس نتائجها وتتطور مع نمو عملك.",
+    "introTitle": "من هي ماكس سيستم؟",
+    "intro": [
+     "ماكس سيستم للبرمجيات شركة تقدّم حلولًا في تطوير البرمجيات والمواقع، والتسويق الرقمي، وتحسين محركات البحث، وتحليل البيانات.",
+     "نؤمن بأن الحضور الرقمي القوي يجمع ثلاثة عناصر: منتج رقمي متقن، وتسويق يصل إلى الجمهور المناسب، وبيانات تقيس ما يحدث وتوجّه القرار التالي."
+    ],
+    "missionTitle": "رسالتنا",
+    "mission": "مساعدة الشركات على النمو عبر حلول رقمية عملية، مبنية على فهم هدف كل مشروع، وقابلة للقياس والتحسين المستمر.",
+    "approachTitle": "نهجنا في العمل",
+    "approach": "نبدأ بالاستماع والتحليل قبل التنفيذ، ونعمل بمراحل واضحة، ونشارككم التقدّم أولًا بأول، ثم نراقب النتائج ونحسّن بناءً عليها.",
+    "valuesTitle": "قيمنا",
+    "values": [
+     {
+      "title": "الوضوح",
+      "text": "نشرح ما نفعله ولماذا، بلغة بعيدة عن التعقيد."
+     },
+     {
+      "title": "الجودة",
+      "text": "نهتم بالتفاصيل التقنية والتصميمية قبل التسليم."
+     },
+     {
+      "title": "القياس",
+      "text": "نربط كل جهد بمؤشر يمكن متابعته وتحسينه."
+     },
+     {
+      "title": "الأمانة",
+      "text": "لا نعد بما لا نستطيع تنفيذه، ولا نضمن نتائج خارج سيطرتنا."
+     }
+    ],
+    "ctaTitle": "هل لديك فكرة أو مشروع؟",
+    "ctaText": "أخبرنا عن هدفك وسنقترح عليك الخطوات المناسبة."
+   },
+   "blog": {
+    "title": "المدونة",
+    "subtitle": "مقالات عملية في التسويق الرقمي، وتحسين محركات البحث، وتطوير البرمجيات، وتحليل البيانات.",
+    "searchLabel": "ابحث في المقالات",
+    "searchPlaceholder": "ابحث في المقالات…",
+    "categoriesLabel": "تصنيفات المقالات",
+    "noResults": "لا توجد مقالات مطابقة لبحثك.",
+    "author": "فريق ماكس سيستم",
+    "publishedOn": "نُشر في",
+    "readingTime": "{n} د للقراءة",
+    "related": "مقالات ذات صلة",
+    "share": "شارك المقال",
+    "copyLink": "نسخ الرابط",
+    "copied": "تم نسخ الرابط",
+    "backToBlog": "العودة إلى المدونة",
+    "shareOn": "مشاركة عبر {name}",
+    "ctaTitle": "تريد تطبيق ذلك على مشروعك؟",
+    "ctaText": "يسعدنا أن نناقش حالتك ونقترح الخطوة التالية."
+   },
+   "contactPage": {
+    "title": "تواصل معنا",
+    "subtitle": "أخبرنا عن مشروعك وسنعود إليك بعد مراجعة التفاصيل.",
+    "formTitle": "طلب استشارة",
+    "infoTitle": "بيانات التواصل",
+    "pending": "ستظهر بيانات التواصل هنا فور إضافتها.",
+    "whatsappTitle": "تواصل سريع عبر واتساب",
+    "whatsappText": "للاستفسارات السريعة يمكنك مراسلتنا مباشرة.",
+    "socialTitle": "تابعنا"
+   },
+   "form": {
+    "fullName": "الاسم الكامل",
+    "company": "اسم الشركة",
+    "phone": "رقم الهاتف أو واتساب",
+    "email": "البريد الإلكتروني",
+    "country": "الدولة",
+    "city": "المدينة",
+    "service": "الخدمة المطلوبة",
+    "selectService": "اختر الخدمة",
+    "otherService": "أخرى / لست متأكدًا",
+    "budget": "ميزانية المشروع (اختياري)",
+    "budgetHint": "مثال: 5,000 – 10,000 (اذكر العملة)",
+    "details": "تفاصيل المشروع",
+    "detailsHint": "اشرح هدفك وما تحتاجه باختصار.",
+    "preferred": "وسيلة التواصل المفضلة",
+    "preferredOptions": {
+     "whatsapp": "واتساب",
+     "phone": "اتصال هاتفي",
+     "email": "بريد إلكتروني"
+    },
+    "consentBefore": "أوافق على معالجة بياناتي للتواصل معي بخصوص طلبي، وفق",
+    "consentLink": "سياسة الخصوصية",
+    "submit": "إرسال الطلب",
+    "sending": "جارٍ الإرسال…",
+    "optional": "اختياري",
+    "successTitle": "تم استلام طلبك",
+    "successText": "شكرًا لك. سنراجع تفاصيل مشروعك ونتواصل معك.",
+    "errorTitle": "تعذّر إرسال الطلب",
+    "alternative": "يمكنك التواصل معنا مباشرة عبر واتساب:",
+    "turnstile": "تحقق أمني",
+    "errors": {
+     "required": "هذا الحقل مطلوب.",
+     "min2": "يرجى إدخال حرفين على الأقل.",
+     "email": "يرجى إدخال بريد إلكتروني صحيح.",
+     "phone": "يرجى إدخال رقم صحيح (أرقام و + فقط).",
+     "detailsMin": "يرجى كتابة 10 أحرف على الأقل.",
+     "max": "النص أطول من المسموح.",
+     "consent": "يجب الموافقة للمتابعة.",
+     "invalid": "قيمة غير صحيحة.",
+     "generic": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.",
+     "notConfigured": "نموذج التواصل غير مفعّل حاليًا. يرجى استخدام وسائل التواصل الأخرى.",
+     "tooFast": "تم الإرسال بسرعة كبيرة. يرجى المحاولة مرة أخرى.",
+     "rateLimited": "عدد محاولات كبير. يرجى الانتظار قليلًا ثم المحاولة.",
+     "turnstile": "فشل التحقق الأمني. يرجى إعادة المحاولة.",
+     "network": "تعذّر الاتصال بالخادم. تحقق من اتصالك بالإنترنت."
+    }
+   },
+   "cookie": {
+    "title": "ملفات تعريف الارتباط",
+    "text": "نستخدم أدوات قياس لتحسين الموقع وتحليل أدائه. لا نفعّلها إلا بموافقتك.",
+    "accept": "موافق",
+    "decline": "رفض",
+    "learn": "سياسة الخصوصية"
+   },
+   "legal": {
+    "lastUpdated": "آخر تحديث",
+    "updatedValue": "11 أكتوبر 2026",
+    "draftNotice": "هذه الصفحة نموذج عام. يُنصح بمراجعتها مع مستشار قانوني وإضافة بيانات الشركة الرسمية قبل النشر.",
+    "privacy": {
+     "title": "سياسة الخصوصية",
+     "subtitle": "كيف نجمع بياناتك ونستخدمها ونحميها.",
+     "sections": [
+      {
+       "heading": "المعلومات التي نجمعها",
+       "body": [
+        "عند تعبئة نموذج الاستشارة أو مراسلتنا، قد نجمع الاسم واسم الشركة ورقم الهاتف أو واتساب والبريد الإلكتروني والدولة والمدينة وتفاصيل المشروع وأي معلومات تختار مشاركتها.",
+        "وعند موافقتك على أدوات القياس، قد نجمع بيانات تقنية مجمّعة عن استخدام الموقع، مثل الصفحات التي تزورها ونوع الجهاز والمتصفح."
+       ]
+      },
+      {
+       "heading": "كيف نستخدم المعلومات",
+       "body": [
+        "نستخدم بياناتك للرد على طلبك، وإعداد عروض الأسعار، وتقديم الخدمات المتفق عليها، وتحسين الموقع والخدمات، والالتزام بالمتطلبات النظامية."
+       ]
+      },
+      {
+       "heading": "ملفات تعريف الارتباط وأدوات القياس",
+       "body": [
+        "إن كانت أدوات التحليل أو الإعلان (مثل Google Analytics وGoogle Tag Manager وMeta Pixel) مفعّلة على الموقع، فلا نشغّلها إلا بعد موافقتك من خلال شريط ملفات تعريف الارتباط.",
+        "يمكنك رفض الموافقة، أو تغيير اختيارك لاحقًا بمسح بيانات الموقع من إعدادات المتصفح."
+       ]
+      },
+      {
+       "heading": "مشاركة البيانات",
+       "body": [
+        "لا نبيع بياناتك الشخصية. قد نستعين بمزوّدي خدمات (مثل الاستضافة والبريد وأدوات القياس) يعالجون البيانات نيابةً عنا وفق التزامات تحمي سريتها."
+       ]
+      },
+      {
+       "heading": "مدة الاحتفاظ بالبيانات",
+       "body": [
+        "نحتفظ بالبيانات للمدة اللازمة لتحقيق الأغراض المذكورة أو وفق ما تقتضيه الأنظمة المعمول بها."
+       ]
+      },
+      {
+       "heading": "أمن البيانات",
+       "body": [
+        "نطبّق إجراءات تقنية وتنظيمية معقولة لحماية بياناتك. ومع ذلك لا توجد وسيلة نقل أو تخزين إلكتروني آمنة بالكامل."
+       ]
+      },
+      {
+       "heading": "حقوقك",
+       "body": [
+        "يمكنك طلب الاطلاع على بياناتك أو تصحيحها أو حذفها، أو سحب موافقتك، بالتواصل معنا عبر وسائل التواصل المعلنة في الموقع."
+       ]
+      },
+      {
+       "heading": "تحديث هذه السياسة",
+       "body": [
+        "قد نحدّث هذه السياسة من وقت لآخر، وسنُظهر تاريخ آخر تحديث في أعلى الصفحة."
+       ]
+      }
+     ]
+    },
+    "terms": {
+     "title": "الشروط والأحكام",
+     "subtitle": "الشروط التي تحكم استخدام الموقع وخدماتنا.",
+     "sections": [
+      {
+       "heading": "قبول الشروط",
+       "body": [
+        "باستخدامك هذا الموقع فإنك توافق على هذه الشروط. إن لم توافق عليها فيرجى التوقف عن استخدامه."
+       ]
+      },
+      {
+       "heading": "طبيعة الخدمات",
+       "body": [
+        "المحتوى المعروض في الموقع لأغراض التعريف بخدماتنا. يُحدَّد نطاق العمل والأسعار والجدول الزمني لكل مشروع في عرض سعر أو اتفاق كتابي."
+       ]
+      },
+      {
+       "heading": "أتعاب الإدارة وميزانية الإعلانات",
+       "body": [
+        "أتعاب إدارة الحملات الإعلانية منفصلة عن ميزانية الإعلانات التي تُدفع مباشرة إلى المنصات الإعلانية (مثل Meta وGoogle وSnapchat وTikTok). لا تشمل أتعابنا ميزانية الإعلانات ما لم يُنص على غير ذلك كتابةً."
+       ]
+      },
+      {
+       "heading": "عدم ضمان النتائج",
+       "body": [
+        "لا نضمن نتائج محددة مثل ترتيب معين في محركات البحث أو عدد معين من المبيعات أو العملاء المحتملين. تعتمد النتائج على المنافسة والسوق وحالة الموقع وجودة التنفيذ وعوامل خارجة عن إرادتنا."
+       ]
+      },
+      {
+       "heading": "الملكية الفكرية",
+       "body": [
+        "محتوى هذا الموقع وشعاره وتصميمه مملوكة لأصحابها ولا يجوز استخدامها دون إذن. تُحدَّد ملكية الأعمال المسلَّمة للعميل في الاتفاق الخاص بكل مشروع."
+       ]
+      },
+      {
+       "heading": "مسؤوليات العميل",
+       "body": [
+        "يلتزم العميل بتوفير المعلومات والصلاحيات اللازمة في الوقت المناسب، والتأكد من أن المواد التي يقدّمها (نصوص وصور وشعارات وغيرها) مرخّصة للاستخدام."
+       ]
+      },
+      {
+       "heading": "روابط وخدمات الأطراف الثالثة",
+       "body": [
+        "قد يحتوي الموقع على روابط أو يعتمد على خدمات أطراف ثالثة. لا نتحمل مسؤولية محتوى هذه الأطراف أو سياساتها."
+       ]
+      },
+      {
+       "heading": "حدود المسؤولية",
+       "body": [
+        "بالقدر الذي تسمح به الأنظمة، لا نتحمل مسؤولية الأضرار غير المباشرة الناتجة عن استخدام الموقع."
+       ]
+      },
+      {
+       "heading": "القانون الواجب التطبيق",
+       "body": [
+        "تخضع هذه الشروط للأنظمة المعمول بها في بلد تسجيل الشركة، وفق ما يحدده الاتفاق الكتابي للخدمة."
+       ]
+      },
+      {
+       "heading": "التعديلات والتواصل",
+       "body": [
+        "قد نعدّل هذه الشروط من وقت لآخر. لأي استفسار يمكنك التواصل معنا عبر وسائل التواصل المعلنة في الموقع."
+       ]
+      }
+     ]
+    }
+   },
+   "notFound": {
+    "code": "404",
+    "title": "الصفحة غير موجودة",
+    "text": "ربما نُقلت الصفحة أو أن الرابط غير صحيح.",
+    "home": "العودة إلى الرئيسية"
+   },
+   "meta": {
+    "home": {
+     "title": "ماكس سيستم للبرمجيات | تطوير مواقع وتطبيقات وتسويق رقمي وتحليل بيانات",
+     "description": "نساعد الشركات على النمو من خلال تطوير المواقع والبرمجيات، وإدارة الحملات الإعلانية، وتحسين محركات البحث، وتحليل البيانات."
+    },
+    "about": {
+     "title": "من نحن",
+     "description": "تعرّف على ماكس سيستم للبرمجيات ونهجنا في تقديم حلول البرمجة والتسويق الرقمي وتحليل البيانات."
+    },
+    "services": {
+     "title": "خدماتنا",
+     "description": "تطوير مواقع وتطبيقات، تسويق رقمي، إدارة إعلانات، تحسين محركات البحث، تحليل بيانات وقياس أداء."
+    },
+    "projects": {
+     "title": "أعمالنا",
+     "description": "نماذج توضيحية لأنواع المشاريع التي ننفذها في الويب والتسويق وتحليل البيانات وتحسين محركات البحث."
+    },
+    "blog": {
+     "title": "المدونة",
+     "description": "مقالات عملية في التسويق الرقمي وتحسين محركات البحث وتطوير البرمجيات وتحليل البيانات."
+    },
+    "contact": {
+     "title": "تواصل معنا",
+     "description": "اطلب استشارة أو عرض سعر لمشروعك البرمجي أو التسويقي. فريق ماكس سيستم في خدمتك."
+    },
+    "privacy": {
+     "title": "سياسة الخصوصية",
+     "description": "تعرّف على كيفية جمع ماكس سيستم لبياناتك واستخدامها وحمايتها."
+    },
+    "terms": {
+     "title": "الشروط والأحكام",
+     "description": "الشروط والأحكام التي تحكم استخدام موقع ماكس سيستم وخدماتها."
+    }
+   }
+  },
+  "en": {
+   "brand": {
+    "tagline": "Software, digital marketing & data analytics",
+    "logoAlt": "MAX SYSTEM software company logo"
+   },
+   "a11y": {
+    "skip": "Skip to main content",
+    "loading": "Loading the website",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "breadcrumb": "Breadcrumb",
+    "switchLanguage": "التبديل إلى اللغة العربية",
+    "externalLink": "(opens in a new tab)",
+    "floatingContact": "Quick contact options",
+    "openSocial": "Show our social media profiles",
+    "closeSocial": "Hide social media profiles",
+    "expand": "Expand",
+    "collapse": "Collapse"
+   },
+   "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "consultation": "Request a Consultation",
+    "allServices": "View all services",
+    "servicesMenuTitle": "Our digital services",
+    "servicesMenuText": "Integrated solutions across software, marketing and data.",
+    "language": "العربية",
+    "quickContact": "Quick contact"
+   },
+   "common": {
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "viewAllProjects": "View all projects",
+    "startProject": "Start Your Project",
+    "discoverServices": "Discover Our Services",
+    "contactUs": "Contact Us",
+    "requestQuote": "Request a Quote",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "email": "Email",
+    "demoBadge": "Demo content",
+    "all": "All",
+    "home": "Home",
+    "backToHome": "Back to home"
+   },
+   "hero": {
+    "eyebrow": "Integrated digital solutions for businesses",
+    "titleStart": "Transforming Ideas into",
+    "titleHighlight": "Digital Solutions",
+    "titleEnd": "That Make a Difference",
+    "subtitle": "We help businesses grow through intelligent software, digital marketing, data analytics, and comprehensive web solutions.",
+    "primaryCta": "Start Your Project",
+    "secondaryCta": "Discover Our Services",
+    "points": [
+     "Solutions tailored to your project",
+     "Data-driven decisions",
+     "Transparent, ongoing communication"
+    ],
+    "visualAlt": "Illustration of a dashboard with analytics and software development",
+    "chips": {
+     "web": "Web Development",
+     "marketing": "Digital Marketing",
+     "data": "Data Analytics",
+     "seo": "SEO"
+    }
+   },
+   "servicesSection": {
+    "eyebrow": "Our Services",
+    "title": "Digital solutions that cover everything your business needs",
+    "subtitle": "From building your website to measuring results: one team and one integrated plan.",
+    "viewService": "Service details",
+    "ctaCardTitle": "Not sure which service fits?",
+    "ctaCardText": "Book a consultation and we will help you choose the right solution for your goals and budget."
+   },
+   "why": {
+    "eyebrow": "Why MAX SYSTEM?",
+    "title": "A digital partner that combines technology, marketing and data",
+    "subtitle": "We follow a clear method that puts your goal first and measures what we do so we can keep improving.",
+    "cta": "Discuss your project"
+   },
+   "process": {
+    "eyebrow": "How We Work",
+    "title": "A clear journey from idea to results",
+    "subtitle": "Six organized stages, so you always know what is happening and what is needed from you.",
+    "step": "Step"
+   },
+   "projectsSection": {
+    "eyebrow": "Our Work",
+    "title": "Examples of the kinds of projects we deliver",
+    "subtitle": "These demonstration items will be replaced with real projects as soon as they are cleared for publishing.",
+    "demoNote": "Demonstration content: these examples are not actual client projects.",
+    "noProjects": "No projects in this category.",
+    "filterLabel": "Filter projects by category"
+   },
+   "tech": {
+    "eyebrow": "Technology & Tools",
+    "title": "Platforms and tools we work with",
+    "subtitle": "Technologies we use for building, advertising, analysing and measuring."
+   },
+   "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What our clients say",
+    "placeholderBadge": "Placeholder — will be replaced by a real client testimonial",
+    "placeholderText": "A genuine client testimonial will appear here once we have permission to publish it.",
+    "placeholderName": "Client name",
+    "placeholderRole": "Job title · Company"
+   },
+   "faq": {
+    "eyebrow": "FAQ",
+    "title": "Answers to common questions",
+    "subtitle": "Cannot find your answer? Get in touch and we will gladly explain."
+   },
+   "cta": {
+    "title": "Ready to grow your business digitally?",
+    "text": "Let us discuss your goals and help you choose the right solutions for your business growth.",
+    "contact": "Contact Us",
+    "quote": "Request a Quote",
+    "whatsapp": "Or message us on WhatsApp"
+   },
+   "footer": {
+    "about": "We deliver software, marketing and analytics solutions that help businesses build a strong digital presence and make better decisions.",
+    "quickLinks": "Quick links",
+    "services": "Services",
+    "contact": "Contact",
+    "contactPending": "Contact details will be added soon.",
+    "followUs": "Follow us",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "rights": "All rights reserved.",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Business hours"
+   },
+   "servicesPage": {
+    "title": "Our Services",
+    "subtitle": "Software, marketing, SEO, data analytics and performance measurement, in one system built around your growth.",
+    "intro": "Pick a service to see the details, or talk to us and we will suggest the right mix."
+   },
+   "servicePage": {
+    "whatWeOffer": "What we offer",
+    "businessValue": "Value for your business",
+    "options": "Available options",
+    "platforms": "Platforms we manage",
+    "coverage": "What campaign management covers",
+    "useCases": "Business use cases",
+    "tools": "Tools we work with",
+    "importantNote": "Important note",
+    "ourProcess": "How we work",
+    "relatedServices": "Related services",
+    "requestService": "Request this service",
+    "allServices": "All services"
+   },
+   "about": {
+    "title": "About Us",
+    "subtitle": "We build digital solutions whose results can be measured and that grow with your business.",
+    "introTitle": "Who is MAX SYSTEM?",
+    "intro": [
+     "MAX SYSTEM is a software company offering web and software development, digital marketing, search engine optimization and data analytics.",
+     "We believe a strong digital presence rests on three things: a well-built digital product, marketing that reaches the right audience, and data that shows what is happening and guides the next decision."
+    ],
+    "missionTitle": "Our mission",
+    "mission": "To help businesses grow through practical digital solutions, built on a clear understanding of each project’s goal and open to measurement and continuous improvement.",
+    "approachTitle": "Our approach",
+    "approach": "We listen and analyse before we build, work in clear stages, share progress as we go, then monitor results and improve based on them.",
+    "valuesTitle": "Our values",
+    "values": [
+     {
+      "title": "Clarity",
+      "text": "We explain what we do and why, in plain language."
+     },
+     {
+      "title": "Quality",
+      "text": "We care about technical and design details before delivery."
+     },
+     {
+      "title": "Measurement",
+      "text": "We tie every effort to an indicator that can be tracked and improved."
+     },
+     {
+      "title": "Honesty",
+      "text": "We do not promise what we cannot deliver, nor guarantee results outside our control."
+     }
+    ],
+    "ctaTitle": "Have an idea or a project?",
+    "ctaText": "Tell us your goal and we will suggest the right next steps."
+   },
+   "blog": {
+    "title": "Blog & Insights",
+    "subtitle": "Practical articles on digital marketing, SEO, software development and data analytics.",
+    "searchLabel": "Search articles",
+    "searchPlaceholder": "Search articles…",
+    "categoriesLabel": "Article categories",
+    "noResults": "No articles match your search.",
+    "author": "MAX SYSTEM Team",
+    "publishedOn": "Published",
+    "readingTime": "{n} min read",
+    "related": "Related articles",
+    "share": "Share this article",
+    "copyLink": "Copy link",
+    "copied": "Link copied",
+    "backToBlog": "Back to the blog",
+    "shareOn": "Share on {name}",
+    "ctaTitle": "Want to apply this to your business?",
+    "ctaText": "We would be glad to discuss your case and suggest the next step."
+   },
+   "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Tell us about your project and we will get back to you after reviewing the details.",
+    "formTitle": "Request a consultation",
+    "infoTitle": "Contact details",
+    "pending": "Contact details will appear here once they are added.",
+    "whatsappTitle": "Quick contact on WhatsApp",
+    "whatsappText": "For quick questions you can message us directly.",
+    "socialTitle": "Follow us"
+   },
+   "form": {
+    "fullName": "Full name",
+    "company": "Company name",
+    "phone": "Phone or WhatsApp number",
+    "email": "Email",
+    "country": "Country",
+    "city": "City",
+    "service": "Required service",
+    "selectService": "Select a service",
+    "otherService": "Other / not sure",
+    "budget": "Project budget (optional)",
+    "budgetHint": "Example: 5,000 – 10,000 (include the currency)",
+    "details": "Project details",
+    "detailsHint": "Briefly describe your goal and what you need.",
+    "preferred": "Preferred contact method",
+    "preferredOptions": {
+     "whatsapp": "WhatsApp",
+     "phone": "Phone call",
+     "email": "Email"
+    },
+    "consentBefore": "I agree to the processing of my data so you can contact me about my request, as described in the",
+    "consentLink": "Privacy Policy",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "optional": "optional",
+    "successTitle": "Your request has been received",
+    "successText": "Thank you. We will review your project details and get in touch.",
+    "errorTitle": "We could not send your request",
+    "alternative": "You can also reach us directly on WhatsApp:",
+    "turnstile": "Security check",
+    "errors": {
+     "required": "This field is required.",
+     "min2": "Please enter at least 2 characters.",
+     "email": "Please enter a valid email address.",
+     "phone": "Please enter a valid number (digits and + only).",
+     "detailsMin": "Please write at least 10 characters.",
+     "max": "The text is longer than allowed.",
+     "consent": "You must agree to continue.",
+     "invalid": "Invalid value.",
+     "generic": "An unexpected error occurred. Please try again.",
+     "notConfigured": "The contact form is not enabled yet. Please use one of the other contact options.",
+     "tooFast": "The form was submitted too quickly. Please try again.",
+     "rateLimited": "Too many attempts. Please wait a moment and try again.",
+     "turnstile": "Security verification failed. Please try again.",
+     "network": "Could not reach the server. Please check your connection."
+    }
+   },
+   "cookie": {
+    "title": "Cookies",
+    "text": "We use measurement tools to improve the website and analyse its performance. We only enable them with your consent.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learn": "Privacy Policy"
+   },
+   "legal": {
+    "lastUpdated": "Last updated",
+    "updatedValue": "October 11, 2026",
+    "draftNotice": "This page is a general template. Please review it with legal counsel and add the official company details before publishing.",
+    "privacy": {
+     "title": "Privacy Policy",
+     "subtitle": "How we collect, use and protect your data.",
+     "sections": [
+      {
+       "heading": "Information we collect",
+       "body": [
+        "When you fill in the consultation form or contact us, we may collect your name, company name, phone or WhatsApp number, email, country and city, project details, and anything else you choose to share.",
+        "If you consent to measurement tools, we may also collect aggregated technical data about how the website is used, such as the pages you visit and your device and browser type."
+       ]
+      },
+      {
+       "heading": "How we use information",
+       "body": [
+        "We use your data to respond to your request, prepare quotes, deliver agreed services, improve the website and our services, and meet legal requirements."
+       ]
+      },
+      {
+       "heading": "Cookies and measurement tools",
+       "body": [
+        "If analytics or advertising tools (such as Google Analytics, Google Tag Manager and Meta Pixel) are enabled on the website, we only run them after you consent through the cookie banner.",
+        "You can decline, or change your choice later by clearing the site’s data in your browser settings."
+       ]
+      },
+      {
+       "heading": "Sharing data",
+       "body": [
+        "We do not sell your personal data. We may use service providers (such as hosting, email and measurement tools) who process data on our behalf under obligations that protect its confidentiality."
+       ]
+      },
+      {
+       "heading": "Data retention",
+       "body": [
+        "We keep data for as long as needed for the purposes described, or as required by applicable law."
+       ]
+      },
+      {
+       "heading": "Data security",
+       "body": [
+        "We apply reasonable technical and organizational measures to protect your data. However, no method of electronic transmission or storage is completely secure."
+       ]
+      },
+      {
+       "heading": "Your rights",
+       "body": [
+        "You may ask to access, correct or delete your data, or withdraw your consent, by contacting us through the contact details published on the website."
+       ]
+      },
+      {
+       "heading": "Updates to this policy",
+       "body": [
+        "We may update this policy from time to time. The last updated date is shown at the top of the page."
+       ]
+      }
+     ]
+    },
+    "terms": {
+     "title": "Terms & Conditions",
+     "subtitle": "The terms that govern use of the website and our services.",
+     "sections": [
+      {
+       "heading": "Acceptance of terms",
+       "body": [
+        "By using this website you agree to these terms. If you do not agree, please stop using it."
+       ]
+      },
+      {
+       "heading": "Nature of the services",
+       "body": [
+        "The content on this website is for introducing our services. The scope of work, pricing and timeline for each project are set out in a quote or written agreement."
+       ]
+      },
+      {
+       "heading": "Management fees and advertising spend",
+       "body": [
+        "Our advertising management fees are separate from the advertising budget paid directly to advertising platforms (such as Meta, Google, Snapchat and TikTok). Our fees do not include advertising spend unless stated otherwise in writing."
+       ]
+      },
+      {
+       "heading": "No guarantee of results",
+       "body": [
+        "We do not guarantee specific results such as a particular search ranking or a certain number of sales or leads. Results depend on competition, the market, the condition of the website, the quality of implementation and factors outside our control."
+       ]
+      },
+      {
+       "heading": "Intellectual property",
+       "body": [
+        "The website content, logo and design belong to their respective owners and may not be used without permission. Ownership of work delivered to a client is set out in the agreement for each project."
+       ]
+      },
+      {
+       "heading": "Client responsibilities",
+       "body": [
+        "The client agrees to provide the necessary information and access in good time, and to ensure that materials supplied (texts, images, logos and so on) are licensed for use."
+       ]
+      },
+      {
+       "heading": "Third-party links and services",
+       "body": [
+        "The website may contain links to, or rely on, third-party services. We are not responsible for the content or policies of those third parties."
+       ]
+      },
+      {
+       "heading": "Limitation of liability",
+       "body": [
+        "To the extent permitted by law, we are not liable for indirect damages arising from use of the website."
+       ]
+      },
+      {
+       "heading": "Governing law",
+       "body": [
+        "These terms are governed by the laws applicable in the company’s country of registration, as specified in the written service agreement."
+       ]
+      },
+      {
+       "heading": "Changes and contact",
+       "body": [
+        "We may amend these terms from time to time. For any question, contact us through the contact details published on the website."
+       ]
+      }
+     ]
+    }
+   },
+   "notFound": {
+    "code": "404",
+    "title": "Page not found",
+    "text": "The page may have been moved, or the link may be incorrect.",
+    "home": "Back to home"
+   },
+   "meta": {
+    "home": {
+     "title": "MAX SYSTEM | Software Development, Digital Marketing & Data Analytics",
+     "description": "We help businesses grow through web and software development, paid advertising management, SEO and data analytics."
+    },
+    "about": {
+     "title": "About Us",
+     "description": "Learn about MAX SYSTEM and our approach to delivering software, digital marketing and data analytics solutions."
+    },
+    "services": {
+     "title": "Services",
+     "description": "Web and software development, digital marketing, paid advertising, SEO, data analytics and performance tracking."
+    },
+    "projects": {
+     "title": "Projects",
+     "description": "Demonstration examples of the kinds of web, marketing, analytics and SEO projects we deliver."
+    },
+    "blog": {
+     "title": "Blog & Insights",
+     "description": "Practical articles on digital marketing, SEO, software development and data analytics."
+    },
+    "contact": {
+     "title": "Contact Us",
+     "description": "Request a consultation or a quote for your software or marketing project. The MAX SYSTEM team is here to help."
+    },
+    "privacy": {
+     "title": "Privacy Policy",
+     "description": "Learn how MAX SYSTEM collects, uses and protects your data."
+    },
+    "terms": {
+     "title": "Terms & Conditions",
+     "description": "The terms and conditions governing use of the MAX SYSTEM website and services."
+    }
+   }
+  }
+ },
+ "services": [
+  {
+   "slug": "web-development",
+   "icon": "code",
+   "title": {
+    "ar": "تطوير البرمجيات والمواقع",
+    "en": "Software & Web Development"
+   },
+   "short": {
+    "ar": "مواقع ومتاجر وتطبيقات ويب مصممة لتناسب نشاطك وتعمل بسرعة على كل الأجهزة.",
+    "en": "Websites, online stores and web applications designed around your business and fast on every device."
+   },
+   "intro": {
+    "ar": "نصمم ونطوّر مواقع وتطبيقات ويب حديثة، سريعة، متجاوبة مع جميع الأجهزة، وجاهزة لمحركات البحث وأدوات القياس منذ اليوم الأول.",
+    "en": "We design and build modern web experiences and applications that are fast, responsive on every device, and ready for search engines and measurement from day one."
+   },
+   "value": {
+    "ar": "الموقع أو النظام الجيد ليس واجهة جميلة فقط؛ هو أداة تبني الثقة وتستقبل الطلبات وتختصر وقتك. نربط التصميم والتقنية بهدف واضح، مثل زيادة الاستفسارات أو تسهيل الحجز أو أتمتة عملية متكررة.",
+    "en": "A good website or system is more than a nice interface; it builds trust, captures enquiries and saves time. We tie design and technology to a clear goal, such as increasing enquiries, simplifying bookings or automating a repetitive process."
+   },
+   "benefits": [
+    {
+     "ar": "تصميم متجاوب وسريع",
+     "en": "Fast, responsive design"
+    },
+    {
+     "ar": "جاهز لمحركات البحث",
+     "en": "Search-engine ready"
+    },
+    {
+     "ar": "قابل للتطوير والصيانة",
+     "en": "Scalable and maintainable"
+    }
+   ],
+   "items": [
+    {
+     "title": {
+      "ar": "مواقع الشركات",
+      "en": "Corporate websites"
+     },
+     "desc": {
+      "ar": "حضور رسمي يعرّف بشركتك وخدماتها ويبني الثقة.",
+      "en": "A professional presence that explains your company and builds trust."
+     }
+    },
+    {
+     "title": {
+      "ar": "مواقع الأعمال",
+      "en": "Business websites"
+     },
+     "desc": {
+      "ar": "مواقع مخصصة لنشاطك تركّز على استقبال الاستفسارات.",
+      "en": "Sites tailored to your business and focused on capturing enquiries."
+     }
+    },
+    {
+     "title": {
+      "ar": "المتاجر الإلكترونية",
+      "en": "E-commerce websites"
+     },
+     "desc": {
+      "ar": "عرض المنتجات وسلة الشراء والدفع وإدارة الطلبات.",
+      "en": "Product catalogues, cart, checkout and order management."
+     }
+    },
+    {
+     "title": {
+      "ar": "صفحات الهبوط",
+      "en": "Landing pages"
+     },
+     "desc": {
+      "ar": "صفحات مركّزة على هدف واحد لحملاتك الإعلانية.",
+      "en": "Single-goal pages built for your advertising campaigns."
+     }
+    },
+    {
+     "title": {
+      "ar": "تطبيقات الويب المخصصة",
+      "en": "Custom web applications"
+     },
+     "desc": {
+      "ar": "أنظمة مبنية على متطلبات عملك وليس قوالب جاهزة.",
+      "en": "Systems built around your requirements rather than off-the-shelf templates."
+     }
+    },
+    {
+     "title": {
+      "ar": "بوابات العملاء ولوحات التحكم",
+      "en": "Customer portals & dashboards"
+     },
+     "desc": {
+      "ar": "مساحة آمنة لعملائك لمتابعة طلباتهم وبياناتهم.",
+      "en": "A secure space for customers to follow their orders and data."
+     }
+    },
+    {
+     "title": {
+      "ar": "أنظمة الحجز والمواعيد",
+      "en": "Booking & appointment systems"
+     },
+     "desc": {
+      "ar": "حجز إلكتروني يقلل المراسلات اليدوية.",
+      "en": "Online booking that reduces manual back-and-forth."
+     }
+    },
+    {
+     "title": {
+      "ar": "إعادة تصميم المواقع وتحسينها",
+      "en": "Website redesign & optimization"
+     },
+     "desc": {
+      "ar": "تحديث المظهر والأداء وتجربة المستخدم لموقع قائم.",
+      "en": "Refreshing the look, performance and user experience of an existing site."
+     }
+    },
+    {
+     "title": {
+      "ar": "الصيانة والدعم الفني",
+      "en": "Maintenance & technical support"
+     },
+     "desc": {
+      "ar": "تحديثات ومتابعة وإصلاح لضمان استقرار الموقع.",
+      "en": "Updates, monitoring and fixes to keep your site stable."
+     }
+    },
+    {
+     "title": {
+      "ar": "الربط مع الأنظمة الخارجية (API)",
+      "en": "API & third-party integrations"
+     },
+     "desc": {
+      "ar": "ربط الموقع بأنظمة الدفع والعملاء والشحن حيثما أمكن.",
+      "en": "Connecting your site to payment, CRM and shipping systems where supported."
+     }
+    }
+   ],
+   "options": [
+    {
+     "ar": "موقع تعريفي من عدة صفحات",
+     "en": "A multi-page company website"
+    },
+    {
+     "ar": "متجر إلكتروني متكامل",
+     "en": "A full online store"
+    },
+    {
+     "ar": "تطبيق ويب أو نظام مخصص",
+     "en": "A custom web application or system"
+    },
+    {
+     "ar": "عقد صيانة ودعم مستمر",
+     "en": "An ongoing maintenance and support agreement"
+    }
+   ],
+   "tools": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "C#",
+    "SQL",
+    "Angular"
+   ],
+   "related": [
+    "seo",
+    "tracking-measurement",
+    "additional-services"
+   ]
+  },
+  {
+   "slug": "digital-marketing",
+   "icon": "megaphone",
+   "title": {
+    "ar": "التسويق الرقمي",
+    "en": "Digital Marketing"
+   },
+   "short": {
+    "ar": "استراتيجيات وخطط تسويقية مبنية على فهم جمهورك ومنافسيك وقابلة للقياس.",
+    "en": "Marketing strategies and plans built on understanding your audience and competitors, with measurable results."
+   },
+   "intro": {
+    "ar": "نبني خطة تسويق رقمي واضحة تبدأ من فهم السوق والجمهور، وتمتد إلى التنفيذ والمتابعة وتحسين الأداء.",
+    "en": "We build a clear digital marketing plan that starts with understanding your market and audience and extends to execution, monitoring and optimization."
+   },
+   "value": {
+    "ar": "التسويق الفعّال ليس كثرة المنشورات أو الإعلانات، بل الرسالة المناسبة للجمهور المناسب في الوقت المناسب، مع قياس ما يتحقق فعلًا وتوجيه الميزانية إلى ما ينجح.",
+    "en": "Effective marketing is not about posting or advertising more, but about the right message to the right audience at the right time, measuring what actually happens and directing budget to what works."
+   },
+   "benefits": [
+    {
+     "ar": "خطط مبنية على بيانات",
+     "en": "Data-based plans"
+    },
+    {
+     "ar": "تقارير أداء واضحة",
+     "en": "Clear performance reports"
+    },
+    {
+     "ar": "تحسين مستمر للحملات",
+     "en": "Continuous campaign optimization"
+    }
+   ],
+   "items": [
+    {
+     "title": {
+      "ar": "استراتيجية التسويق الرقمي",
+      "en": "Digital marketing strategy"
+     },
+     "desc": {
+      "ar": "تحديد الأهداف والقنوات والرسائل الأنسب لنشاطك.",
+      "en": "Defining the goals, channels and messages that fit your business."
+     }
+    },
+    {
+     "title": {
+      "ar": "الخطط التسويقية",
+      "en": "Marketing plans"
+     },
+     "desc": {
+      "ar": "خطة تنفيذية بجدول ومؤشرات أداء واضحة.",
+      "en": "An actionable plan with a schedule and clear KPIs."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليل المنافسين",
+      "en": "Competitor analysis"
+     },
+     "desc": {
+      "ar": "دراسة ما يفعله منافسوك لاكتشاف الفرص والفجوات.",
+      "en": "Studying what competitors do to uncover opportunities and gaps."
+     }
+    },
+    {
+     "title": {
+      "ar": "أبحاث الجمهور",
+      "en": "Audience research"
+     },
+     "desc": {
+      "ar": "فهم اهتمامات الجمهور المستهدف وسلوكه وقنواته.",
+      "en": "Understanding the interests, behavior and channels of your target audience."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليل رحلة العميل",
+      "en": "Customer journey analysis"
+     },
+     "desc": {
+      "ar": "رسم مراحل القرار وتحديد نقاط الاحتكاك والتحسين.",
+      "en": "Mapping decision stages and identifying friction points to improve."
+     }
+    },
+    {
+     "title": {
+      "ar": "إدارة الإعلانات المدفوعة",
+      "en": "Paid advertising management"
+     },
+     "desc": {
+      "ar": "إعداد الحملات ومتابعتها وتحسينها (التفاصيل في صفحة إدارة الحملات الإعلانية).",
+      "en": "Setting up, running and optimizing campaigns (details on the advertising management page)."
+     }
+    },
+    {
+     "title": {
+      "ar": "التسويق عبر وسائل التواصل",
+      "en": "Social media marketing"
+     },
+     "desc": {
+      "ar": "خطط محتوى وإدارة حضور على المنصات التي يستخدمها جمهورك.",
+      "en": "Content plans and presence management on the platforms your audience uses."
+     }
+    },
+    {
+     "title": {
+      "ar": "تسويق المحتوى",
+      "en": "Content marketing"
+     },
+     "desc": {
+      "ar": "محتوى مفيد يجذب الجمهور ويدعم قرار الشراء.",
+      "en": "Useful content that attracts your audience and supports buying decisions."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحسين معدل التحويل (CRO)",
+      "en": "Conversion rate optimization (CRO)"
+     },
+     "desc": {
+      "ar": "اختبار الصفحات وتحسينها لزيادة نسبة من ينفذ الإجراء المطلوب.",
+      "en": "Testing and improving pages to increase the share of visitors who take action."
+     }
+    },
+    {
+     "title": {
+      "ar": "توليد العملاء المحتملين",
+      "en": "Lead generation"
+     },
+     "desc": {
+      "ar": "جذب الاستفسارات المناسبة وتأهيلها قبل وصولها لفريق المبيعات.",
+      "en": "Attracting suitable enquiries and qualifying them before they reach sales."
+     }
+    },
+    {
+     "title": {
+      "ar": "إعادة الاستهداف",
+      "en": "Remarketing & retargeting"
+     },
+     "desc": {
+      "ar": "الوصول إلى من زار موقعك أو تفاعل مع محتواك.",
+      "en": "Reaching people who visited your site or engaged with your content."
+     }
+    },
+    {
+     "title": {
+      "ar": "تقارير أداء التسويق",
+      "en": "Marketing performance reporting"
+     },
+     "desc": {
+      "ar": "تقارير واضحة تربط الإنفاق بالنتائج.",
+      "en": "Clear reports that connect spend to results."
+     }
+    },
+    {
+     "title": {
+      "ar": "تتبع الحملات وتحسينها",
+      "en": "Campaign tracking & optimization"
+     },
+     "desc": {
+      "ar": "قياس مستمر وتعديل بناءً على ما تُظهره البيانات.",
+      "en": "Ongoing measurement and adjustments based on what the data shows."
+     }
+    }
+   ],
+   "related": [
+    "paid-advertising",
+    "seo",
+    "data-analytics"
+   ]
+  },
+  {
+   "slug": "paid-advertising",
+   "icon": "target",
+   "title": {
+    "ar": "إدارة الحملات الإعلانية",
+    "en": "Paid Advertising Management"
+   },
+   "short": {
+    "ar": "إدارة حملات Meta وGoogle وSnapchat وTikTok وYouTube من الإعداد إلى التحسين والتقارير.",
+    "en": "Managing Meta, Google, Snapchat, TikTok and YouTube campaigns from setup through optimization and reporting."
+   },
+   "intro": {
+    "ar": "ندير حملاتك الإعلانية على المنصات الأنسب لجمهورك، مع تتبّع دقيق للنتائج وتوصيات واضحة لكل مرحلة.",
+    "en": "We manage your campaigns on the platforms that best fit your audience, with accurate tracking and clear recommendations at every stage."
+   },
+   "value": {
+    "ar": "الإعلان المدفوع يمنحك وصولًا سريعًا إلى الجمهور، لكن النتيجة تعتمد على الاستهداف والرسالة والتتبع والمتابعة المستمرة. هدفنا أن يذهب كل جزء من ميزانيتك إلى المكان الأنسب له.",
+    "en": "Paid advertising gives you fast access to your audience, but results depend on targeting, message, tracking and regular monitoring. Our goal is that every part of your budget goes where it works best."
+   },
+   "benefits": [
+    {
+     "ar": "تتبع تحويلات دقيق",
+     "en": "Accurate conversion tracking"
+    },
+    {
+     "ar": "اختبارات A/B منتظمة",
+     "en": "Regular A/B testing"
+    },
+    {
+     "ar": "توزيع ميزانية مدروس",
+     "en": "Considered budget allocation"
+    }
+   ],
+   "items": [],
+   "platforms": [
+    {
+     "title": {
+      "ar": "Meta Ads: فيسبوك وإنستجرام",
+      "en": "Meta Ads: Facebook & Instagram"
+     },
+     "desc": {
+      "ar": "حملات للوعي والتفاعل وتوليد العملاء المحتملين والمبيعات.",
+      "en": "Campaigns for awareness, engagement, leads and sales."
+     }
+    },
+    {
+     "title": {
+      "ar": "إعلانات Google",
+      "en": "Google Ads"
+     },
+     "desc": {
+      "ar": "حملات بحث وعرض (Display) وأنواع أخرى مناسبة لهدفك.",
+      "en": "Search, Display and other campaign types suited to your goal."
+     }
+    },
+    {
+     "title": {
+      "ar": "إعلانات Snapchat",
+      "en": "Snapchat Ads"
+     },
+     "desc": {
+      "ar": "إعلانات تصل إلى جمهور المنصة بتنسيقات قصيرة وجذابة.",
+      "en": "Ads that reach the platform’s audience in short, engaging formats."
+     }
+    },
+    {
+     "title": {
+      "ar": "إعلانات TikTok",
+      "en": "TikTok Ads"
+     },
+     "desc": {
+      "ar": "إعلانات فيديو قصيرة تناسب المحتوى الإبداعي.",
+      "en": "Short-video ads that suit creative content."
+     }
+    },
+    {
+     "title": {
+      "ar": "إعلانات YouTube",
+      "en": "YouTube Ads"
+     },
+     "desc": {
+      "ar": "إعلانات فيديو عند الحاجة إلى وصول أوسع أو سرد قصة العلامة.",
+      "en": "Video advertising where broader reach or brand storytelling is needed."
+     }
+    }
+   ],
+   "coverage": [
+    {
+     "ar": "إعداد الحملات وهيكلتها",
+     "en": "Campaign setup and structure"
+    },
+    {
+     "ar": "تحديد الجمهور المستهدف",
+     "en": "Audience targeting"
+    },
+    {
+     "ar": "نصوص الإعلانات والتصاميم",
+     "en": "Ad copy and creatives"
+    },
+    {
+     "ar": "إعداد البيكسل وتتبع التحويلات",
+     "en": "Pixel and conversion tracking"
+    },
+    {
+     "ar": "توزيع الميزانية بين الحملات",
+     "en": "Budget allocation across campaigns"
+    },
+    {
+     "ar": "اختبارات A/B",
+     "en": "A/B testing"
+    },
+    {
+     "ar": "تحسين الأداء باستمرار",
+     "en": "Ongoing performance optimization"
+    },
+    {
+     "ar": "تقارير وتوصيات",
+     "en": "Reporting and recommendations"
+    }
+   ],
+   "notices": [
+    {
+     "title": {
+      "ar": "أتعاب الإدارة وميزانية الإعلانات",
+      "en": "Management fees vs. advertising spend"
+     },
+     "body": {
+      "ar": "أتعاب إدارة الحملات مستقلة عن ميزانية الإعلانات. ميزانية الإعلانات تُدفع مباشرة إلى المنصة الإعلانية (Meta أو Google أو غيرها) وتبقى تحت تحكمك، بينما تغطي أتعابنا الإعداد والإدارة والتحسين والتقارير.",
+      "en": "Our management fee is separate from your advertising spend. Advertising spend is paid directly to the ad platform (Meta, Google or others) and stays under your control, while our fee covers setup, management, optimization and reporting."
+     }
+    }
+   ],
+   "related": [
+    "digital-marketing",
+    "tracking-measurement",
+    "data-analytics"
+   ]
+  },
+  {
+   "slug": "seo",
+   "icon": "search",
+   "title": {
+    "ar": "تحسين محركات البحث (SEO)",
+    "en": "Search Engine Optimization (SEO)"
+   },
+   "short": {
+    "ar": "تحسين تقني ومحتوى وروابط ليسهل على عملائك الوصول إليك في نتائج البحث.",
+    "en": "Technical, content and link optimization so customers can find you in search results."
+   },
+   "intro": {
+    "ar": "نحسّن ظهور موقعك في نتائج البحث عبر معالجة الجوانب التقنية والمحتوى والروابط، مع متابعة شهرية للأداء.",
+    "en": "We improve your visibility in search results by working on technical foundations, content and links, with monthly performance follow-up."
+   },
+   "value": {
+    "ar": "يبحث العملاء عن حلول قبل أن يبحثوا عن أسماء الشركات. تحسين محركات البحث يجعل موقعك أسهل في الاكتشاف والفهم لدى محركات البحث والزوار، ويبني مصدر زيارات مستدامًا.",
+    "en": "Customers search for solutions before they search for company names. SEO makes your site easier to discover and understand for search engines and visitors, building a sustainable source of traffic."
+   },
+   "benefits": [
+    {
+     "ar": "تدقيق تقني شامل",
+     "en": "Comprehensive technical audit"
+    },
+    {
+     "ar": "محتوى يطابق نية الباحث",
+     "en": "Content matching search intent"
+    },
+    {
+     "ar": "تقارير شهرية",
+     "en": "Monthly reports"
+    }
+   ],
+   "items": [
+    {
+     "title": {
+      "ar": "السيو التقني",
+      "en": "Technical SEO"
+     },
+     "desc": {
+      "ar": "الزحف والفهرسة وبنية الموقع وسلامته التقنية.",
+      "en": "Crawling, indexing, site structure and technical health."
+     }
+    },
+    {
+     "title": {
+      "ar": "السيو الداخلي",
+      "en": "On-page SEO"
+     },
+     "desc": {
+      "ar": "العناوين والأوصاف والمحتوى وبنية الصفحة.",
+      "en": "Titles, descriptions, content and page structure."
+     }
+    },
+    {
+     "title": {
+      "ar": "السيو الخارجي",
+      "en": "Off-page SEO"
+     },
+     "desc": {
+      "ar": "بناء حضور وروابط موثوقة من مصادر مناسبة.",
+      "en": "Building presence and trustworthy links from suitable sources."
+     }
+    },
+    {
+     "title": {
+      "ar": "البحث عن الكلمات المفتاحية",
+      "en": "Keyword research"
+     },
+     "desc": {
+      "ar": "اكتشاف العبارات التي يبحث بها جمهورك فعلًا.",
+      "en": "Discovering the phrases your audience actually searches for."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليل نية البحث",
+      "en": "Search intent analysis"
+     },
+     "desc": {
+      "ar": "مطابقة كل صفحة لما يريده الباحث من بحثه.",
+      "en": "Matching each page to what the searcher is really looking for."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليل منافسي السيو",
+      "en": "Competitor SEO analysis"
+     },
+     "desc": {
+      "ar": "فهم نقاط قوة المنافسين وفرص التفوق عليهم.",
+      "en": "Understanding competitors’ strengths and opportunities to outperform them."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحسين المحتوى",
+      "en": "Content optimization"
+     },
+     "desc": {
+      "ar": "تطوير نصوص الصفحات الحالية وإضافة محتوى جديد مفيد.",
+      "en": "Improving existing page copy and adding useful new content."
+     }
+    },
+    {
+     "title": {
+      "ar": "الربط الداخلي",
+      "en": "Internal linking"
+     },
+     "desc": {
+      "ar": "ربط الصفحات منطقيًا لتوزيع الأهمية وتسهيل التنقل.",
+      "en": "Linking pages logically to distribute importance and ease navigation."
+     }
+    },
+    {
+     "title": {
+      "ar": "تسريع الموقع",
+      "en": "Website speed optimization"
+     },
+     "desc": {
+      "ar": "تحسين سرعة التحميل لتجربة أفضل ومؤشرات أداء أقوى.",
+      "en": "Improving load speed for a better experience and stronger performance metrics."
+     }
+    },
+    {
+     "title": {
+      "ar": "البيانات المنظمة (Schema)",
+      "en": "Structured data & schema markup"
+     },
+     "desc": {
+      "ar": "إضافة Schema.org لمساعدة محركات البحث على فهم محتواك.",
+      "en": "Adding Schema.org markup to help search engines understand your content."
+     }
+    },
+    {
+     "title": {
+      "ar": "خريطة الموقع وملف robots.txt",
+      "en": "XML sitemap & robots.txt"
+     },
+     "desc": {
+      "ar": "إعداد ملفات توجّه الزحف وتدعم الفهرسة.",
+      "en": "Setting up the files that guide crawling and support indexing."
+     }
+    },
+    {
+     "title": {
+      "ar": "ربط Google Search Console",
+      "en": "Google Search Console integration"
+     },
+     "desc": {
+      "ar": "متابعة الفهرسة والظهور والنقرات والأخطاء.",
+      "en": "Monitoring indexing, impressions, clicks and errors."
+     }
+    },
+    {
+     "title": {
+      "ar": "السيو المحلي وملف النشاط على Google",
+      "en": "Local SEO & Google Business Profile"
+     },
+     "desc": {
+      "ar": "تحسين الظهور في البحث المحلي وإدارة ملف نشاطك التجاري.",
+      "en": "Improving local search visibility and managing your business profile."
+     }
+    },
+    {
+     "title": {
+      "ar": "تدقيق السيو",
+      "en": "SEO audits"
+     },
+     "desc": {
+      "ar": "تقرير يحدد المشكلات والفرص بحسب الأولوية.",
+      "en": "A report that prioritizes issues and opportunities."
+     }
+    },
+    {
+     "title": {
+      "ar": "التقارير الشهرية",
+      "en": "Monthly performance reports"
+     },
+     "desc": {
+      "ar": "ملخص واضح لما تحقق وما سيُنفَّذ لاحقًا.",
+      "en": "A clear summary of what was achieved and what comes next."
+     }
+    }
+   ],
+   "notices": [
+    {
+     "title": {
+      "ar": "بخصوص نتائج السيو",
+      "en": "About SEO results"
+     },
+     "body": {
+      "ar": "تعتمد نتائج تحسين محركات البحث على المنافسة والسوق وحالة الموقع وجودة التنفيذ، ولذلك لا نضمن ترتيبًا أو نتيجة محددة. ما نلتزم به هو عمل منهجي شفاف وتقارير واضحة.",
+      "en": "SEO results depend on competition, the market, the condition of your website and the quality of implementation, so we never guarantee specific rankings. What we commit to is transparent, systematic work and clear reporting."
+     }
+    }
+   ],
+   "related": [
+    "web-development",
+    "digital-marketing",
+    "tracking-measurement"
+   ]
+  },
+  {
+   "slug": "data-analytics",
+   "icon": "chart",
+   "title": {
+    "ar": "تحليل البيانات وعلم البيانات",
+    "en": "Data Analytics & Data Science"
+   },
+   "short": {
+    "ar": "لوحات مؤشرات وتحليلات تساعدك على فهم عملائك ومبيعاتك واتخاذ قرارات أدق.",
+    "en": "Dashboards and analysis that help you understand customers and sales and make sharper decisions."
+   },
+   "intro": {
+    "ar": "نحوّل بياناتك المتفرقة إلى صورة واضحة: من جمعها وتنظيفها إلى تحليلها وعرضها في لوحات مؤشرات تدعم القرار.",
+    "en": "We turn scattered data into a clear picture: from collecting and cleaning it to analysing it and presenting it in dashboards that support decisions."
+   },
+   "value": {
+    "ar": "القرار المبني على بيانات منظمة أقل مخاطرة من القرار المبني على الانطباع. يساعدك التحليل على معرفة ما ينجح فعلًا وأين تضيع الفرص، ويوفر لك مؤشرات يمكن متابعتها باستمرار.",
+    "en": "A decision based on organized data carries less risk than one based on impressions. Analysis shows you what actually works and where opportunities are lost, and gives you indicators you can track continuously."
+   },
+   "benefits": [
+    {
+     "ar": "لوحات مؤشرات واضحة",
+     "en": "Clear dashboards"
+    },
+    {
+     "ar": "فهم سلوك العملاء",
+     "en": "Understanding customer behavior"
+    },
+    {
+     "ar": "تقارير قابلة للأتمتة",
+     "en": "Automatable reporting"
+    }
+   ],
+   "items": [
+    {
+     "title": {
+      "ar": "جمع البيانات وتنظيفها",
+      "en": "Data collection & cleaning"
+     },
+     "desc": {
+      "ar": "توحيد مصادر البيانات وإزالة الأخطاء والتكرار.",
+      "en": "Consolidating data sources and removing errors and duplicates."
+     }
+    },
+    {
+     "title": {
+      "ar": "التحليل الاستكشافي",
+      "en": "Exploratory data analysis"
+     },
+     "desc": {
+      "ar": "اكتشاف الأنماط والعلاقات قبل بناء الاستنتاجات.",
+      "en": "Finding patterns and relationships before drawing conclusions."
+     }
+    },
+    {
+     "title": {
+      "ar": "تصوير البيانات",
+      "en": "Data visualization"
+     },
+     "desc": {
+      "ar": "رسوم ولوحات تسهّل فهم الأرقام.",
+      "en": "Charts and views that make numbers easy to understand."
+     }
+    },
+    {
+     "title": {
+      "ar": "لوحات ذكاء الأعمال",
+      "en": "Business intelligence dashboards"
+     },
+     "desc": {
+      "ar": "لوحات تفاعلية تجمع أهم مؤشراتك في مكان واحد.",
+      "en": "Interactive dashboards that bring your key metrics together."
+     }
+    },
+    {
+     "title": {
+      "ar": "متابعة مؤشرات الأداء",
+      "en": "KPI monitoring"
+     },
+     "desc": {
+      "ar": "تحديد المؤشرات المهمة ومتابعتها دوريًا.",
+      "en": "Defining the metrics that matter and tracking them regularly."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليلات المبيعات والتسويق",
+      "en": "Sales & marketing analytics"
+     },
+     "desc": {
+      "ar": "ربط الحملات بالمبيعات لمعرفة ما يحقق عائدًا.",
+      "en": "Linking campaigns and sales to see what delivers a return."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليل سلوك العملاء",
+      "en": "Customer behavior analysis"
+     },
+     "desc": {
+      "ar": "فهم كيف يتفاعل العملاء مع منتجاتك وموقعك.",
+      "en": "Understanding how customers interact with your products and site."
+     }
+    },
+    {
+     "title": {
+      "ar": "تقسيم العملاء",
+      "en": "Customer segmentation"
+     },
+     "desc": {
+      "ar": "تجميع العملاء في شرائح لتخصيص الرسائل والعروض.",
+      "en": "Grouping customers into segments to tailor messages and offers."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليل إسناد التسويق",
+      "en": "Marketing attribution analysis"
+     },
+     "desc": {
+      "ar": "تقدير مساهمة كل قناة في النتائج.",
+      "en": "Estimating each channel’s contribution to results."
+     }
+    },
+    {
+     "title": {
+      "ar": "التنبؤ والنماذج التنبؤية",
+      "en": "Forecasting & predictive modeling"
+     },
+     "desc": {
+      "ar": "نماذج تقديرية تُحدَّد وفق طبيعة بياناتك ومتطلبات المشروع.",
+      "en": "Estimation models, chosen according to your data and project requirements."
+     }
+    },
+    {
+     "title": {
+      "ar": "التحليل الإحصائي",
+      "en": "Statistical analysis"
+     },
+     "desc": {
+      "ar": "اختبارات وقياسات تدعم الاستنتاجات.",
+      "en": "Tests and measurements that support conclusions."
+     }
+    },
+    {
+     "title": {
+      "ar": "دعم القرار المبني على البيانات",
+      "en": "Data-driven decision support"
+     },
+     "desc": {
+      "ar": "تحويل نتائج التحليل إلى توصيات عملية.",
+      "en": "Turning analysis results into practical recommendations."
+     }
+    },
+    {
+     "title": {
+      "ar": "أتمتة التقارير",
+      "en": "Reporting automation"
+     },
+     "desc": {
+      "ar": "تقارير تتحدث تلقائيًا بدل الإعداد اليدوي المتكرر.",
+      "en": "Reports that update automatically instead of repetitive manual work."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحليل قواعد البيانات وربطها",
+      "en": "Database analysis & integration"
+     },
+     "desc": {
+      "ar": "العمل مع قواعد البيانات ومصادرها حيثما أمكن.",
+      "en": "Working with databases and data sources where supported."
+     }
+    }
+   ],
+   "useCases": [
+    {
+     "ar": "تحسين أداء الحملات الإعلانية بمعرفة ما يحقق نتائج فعلًا",
+     "en": "Improving campaign performance by knowing what actually delivers results"
+    },
+    {
+     "ar": "فهم سلوك العملاء ومسارهم قبل الشراء",
+     "en": "Understanding customer behavior and the path to purchase"
+    },
+    {
+     "ar": "اكتشاف اتجاهات المبيعات والمواسم",
+     "en": "Identifying sales trends and seasonality"
+    },
+    {
+     "ar": "تقليل الهدر وعدم الكفاءة في العمليات التشغيلية",
+     "en": "Reducing waste and operational inefficiencies"
+    }
+   ],
+   "tools": [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Excel",
+    "Google Analytics 4"
+   ],
+   "notices": [
+    {
+     "title": {
+      "ar": "نطاق الخدمة",
+      "en": "Scope of work"
+     },
+     "body": {
+      "ar": "تُحدَّد الأدوات والتقنيات المستخدمة (ومنها النماذج التنبؤية) وفق طبيعة بياناتك وأهداف المشروع، ونؤكدها لك في عرض الخدمة.",
+      "en": "The tools and techniques used (including predictive models) are chosen according to your data and the project’s goals, and confirmed in the service proposal."
+     }
+    }
+   ],
+   "related": [
+    "tracking-measurement",
+    "digital-marketing",
+    "paid-advertising"
+   ]
+  },
+  {
+   "slug": "tracking-measurement",
+   "icon": "activity",
+   "title": {
+    "ar": "التتبع والقياس",
+    "en": "Tracking & Measurement"
+   },
+   "short": {
+    "ar": "إعداد Google Analytics 4 وTag Manager وMeta Pixel وتتبع التحويلات بدقة واحترام للخصوصية.",
+    "en": "Setting up Google Analytics 4, Tag Manager, Meta Pixel and conversion tracking accurately and with respect for privacy."
+   },
+   "intro": {
+    "ar": "نجهّز منظومة قياس تُظهر مصدر زياراتك وعملائك وما يفعلونه، لتبني قراراتك على أرقام موثوقة.",
+    "en": "We set up a measurement system that shows where your visitors and customers come from and what they do, so your decisions rest on reliable numbers."
+   },
+   "value": {
+    "ar": "بدون تتبع صحيح لا يمكن الحكم على نجاح الموقع أو الحملات. الإعداد السليم يوفر بيانات دقيقة، ويمدّ منصات الإعلان بإشارات تساعدها على تحسين الاستهداف.",
+    "en": "Without correct tracking you cannot judge the success of your website or campaigns. A sound setup provides accurate data and gives ad platforms the signals they need to improve targeting."
+   },
+   "benefits": [
+    {
+     "ar": "بيانات موثوقة",
+     "en": "Reliable data"
+    },
+    {
+     "ar": "تتبع التحويلات والأحداث",
+     "en": "Conversion and event tracking"
+    },
+    {
+     "ar": "إعداد يراعي الخصوصية",
+     "en": "Privacy-conscious setup"
+    }
+   ],
+   "items": [
+    {
+     "title": {
+      "ar": "Google Analytics 4",
+      "en": "Google Analytics 4"
+     },
+     "desc": {
+      "ar": "إعداد الخصائص والأحداث والتقارير الأساسية.",
+      "en": "Setting up properties, events and core reports."
+     }
+    },
+    {
+     "title": {
+      "ar": "Google Tag Manager",
+      "en": "Google Tag Manager"
+     },
+     "desc": {
+      "ar": "إدارة وسوم القياس من مكان واحد دون تعديل الكود كل مرة.",
+      "en": "Managing measurement tags in one place without editing code each time."
+     }
+    },
+    {
+     "title": {
+      "ar": "Meta Pixel",
+      "en": "Meta Pixel"
+     },
+     "desc": {
+      "ar": "تتبع زيارات وتحويلات حملات فيسبوك وإنستجرام.",
+      "en": "Tracking visits and conversions from Facebook and Instagram campaigns."
+     }
+    },
+    {
+     "title": {
+      "ar": "ربط Conversions API",
+      "en": "Conversions API integration"
+     },
+     "desc": {
+      "ar": "إرسال الأحداث من الخادم حيثما أمكن لتحسين دقة القياس.",
+      "en": "Server-side event sending where supported to improve measurement accuracy."
+     }
+    },
+    {
+     "title": {
+      "ar": "تتبع تحويلات Google Ads",
+      "en": "Google Ads conversion tracking"
+     },
+     "desc": {
+      "ar": "قياس ما تحققه حملاتك من مكالمات ونماذج ومبيعات.",
+      "en": "Measuring the calls, forms and sales your campaigns generate."
+     }
+    },
+    {
+     "title": {
+      "ar": "تتبع التجارة الإلكترونية",
+      "en": "E-commerce tracking"
+     },
+     "desc": {
+      "ar": "متابعة المنتجات والسلة والمبيعات.",
+      "en": "Tracking products, cart activity and sales."
+     }
+    },
+    {
+     "title": {
+      "ar": "تتبع العملاء المحتملين",
+      "en": "Lead tracking"
+     },
+     "desc": {
+      "ar": "معرفة مصدر كل استفسار ونموذج.",
+      "en": "Knowing the source of every enquiry and form."
+     }
+    },
+    {
+     "title": {
+      "ar": "تتبع الأحداث",
+      "en": "Event tracking"
+     },
+     "desc": {
+      "ar": "قياس النقرات والتمرير والتحميلات والتفاعلات المهمة.",
+      "en": "Measuring clicks, scrolling, downloads and key interactions."
+     }
+    },
+    {
+     "title": {
+      "ar": "لوحات المتابعة والتقارير",
+      "en": "Dashboard setup & reporting"
+     },
+     "desc": {
+      "ar": "عرض النتائج في لوحات واضحة وتقارير دورية.",
+      "en": "Presenting results in clear dashboards and regular reports."
+     }
+    }
+   ],
+   "notices": [
+    {
+     "title": {
+      "ar": "الخصوصية وموافقة الزائر",
+      "en": "Privacy and consent"
+     },
+     "body": {
+      "ar": "نعتمد نهجًا يراعي الخصوصية: تفعيل أدوات القياس بعد موافقة الزائر حيثما تتطلب الأنظمة ذلك، وجمع الحد الضروري من البيانات، وحماية معلومات العملاء.",
+      "en": "We take a privacy-conscious approach: enabling measurement tools after visitor consent where regulations require it, collecting only the necessary data, and protecting customer information."
+     }
+    }
+   ],
+   "related": [
+    "paid-advertising",
+    "data-analytics",
+    "web-development"
+   ]
+  },
+  {
+   "slug": "additional-services",
+   "icon": "sparkles",
+   "title": {
+    "ar": "خدمات رقمية إضافية",
+    "en": "Additional Digital Services"
+   },
+   "short": {
+    "ar": "تصميم هوية ومحتوى وكتابة وبريد إلكتروني احترافي، إضافة إلى أمان الموقع وصيانته.",
+    "en": "Visual identity, content, copywriting and professional email, plus website security and maintenance."
+   },
+   "intro": {
+    "ar": "خدمات مكمّلة تكتمل بها صورة حضورك الرقمي، ويمكن طلبها منفردة أو ضمن مشروع متكامل.",
+    "en": "Complementary services that complete your digital presence, available individually or as part of an integrated project."
+   },
+   "value": {
+    "ar": "التفاصيل مثل الهوية والمحتوى والبريد الرسمي وأمان الموقع تصنع انطباع الثقة لدى العميل، وتدعم أداء بقية جهودك.",
+    "en": "Details such as identity, content, official email and website security shape customers’ trust and support the rest of your efforts."
+   },
+   "benefits": [
+    {
+     "ar": "صورة احترافية متسقة",
+     "en": "A consistent professional image"
+    },
+    {
+     "ar": "محتوى يناسب جمهورك",
+     "en": "Content that suits your audience"
+    },
+    {
+     "ar": "موقع آمن ومحدّث",
+     "en": "A secure, updated website"
+    }
+   ],
+   "items": [
+    {
+     "title": {
+      "ar": "التصميم الجرافيكي والهوية البصرية",
+      "en": "Graphic design & visual identity"
+     },
+     "desc": {
+      "ar": "هوية متسقة تظهر بها علامتك على كل القنوات.",
+      "en": "A consistent identity that carries your brand across every channel."
+     }
+    },
+    {
+     "title": {
+      "ar": "إنشاء محتوى وسائل التواصل",
+      "en": "Social media content creation"
+     },
+     "desc": {
+      "ar": "تصاميم ومنشورات تناسب كل منصة.",
+      "en": "Designs and posts tailored to each platform."
+     }
+    },
+    {
+     "title": {
+      "ar": "تصميم الملف التعريفي للشركة",
+      "en": "Company profile design"
+     },
+     "desc": {
+      "ar": "ملف يعرّف بشركتك وخدماتها بشكل احترافي.",
+      "en": "A document that introduces your company and services professionally."
+     }
+    },
+    {
+     "title": {
+      "ar": "كتابة المحتوى",
+      "en": "Copywriting"
+     },
+     "desc": {
+      "ar": "نصوص واضحة ومقنعة للمواقع والإعلانات والمحتوى.",
+      "en": "Clear, persuasive copy for websites, ads and content."
+     }
+    },
+    {
+     "title": {
+      "ar": "التسويق عبر البريد الإلكتروني",
+      "en": "Email marketing"
+     },
+     "desc": {
+      "ar": "رسائل دورية وحملات بريدية تحافظ على تواصلك مع العملاء.",
+      "en": "Regular emails and campaigns that keep you in touch with customers."
+     }
+    },
+    {
+     "title": {
+      "ar": "إعداد البريد الإلكتروني الرسمي للأعمال",
+      "en": "Official business email setup"
+     },
+     "desc": {
+      "ar": "بريد باسم نطاق شركتك مع إعدادات الأمان المناسبة.",
+      "en": "Email on your company domain with suitable security settings."
+     }
+    },
+    {
+     "title": {
+      "ar": "ملف النشاط التجاري على Google",
+      "en": "Google Business Profile"
+     },
+     "desc": {
+      "ar": "إعداد الملف وتحسينه ليسهل على العملاء إيجادك.",
+      "en": "Setting up and optimizing your profile so customers can find you."
+     }
+    },
+    {
+     "title": {
+      "ar": "تحسين صفحات الهبوط",
+      "en": "Landing page optimization"
+     },
+     "desc": {
+      "ar": "تحسين الرسالة والتصميم لرفع نسبة التحويل.",
+      "en": "Improving message and layout to lift conversion rates."
+     }
+    },
+    {
+     "title": {
+      "ar": "أمان الموقع وصيانته",
+      "en": "Website security & maintenance"
+     },
+     "desc": {
+      "ar": "نسخ احتياطية وتحديثات ومتابعة للثغرات المعروفة.",
+      "en": "Backups, updates and monitoring for known vulnerabilities."
+     }
+    }
+   ],
+   "related": [
+    "web-development",
+    "digital-marketing",
+    "seo"
+   ]
+  }
+ ],
+ "articles": [
+  {
+   "slug": "ga4-vs-google-tag-manager",
+   "category": "data-analytics",
+   "date": "2026-10-09",
+   "title": {
+    "ar": "ما الفرق بين Google Analytics 4 وGoogle Tag Manager؟",
+    "en": "Google Analytics 4 vs. Google Tag Manager: What’s the Difference?"
+   },
+   "excerpt": {
+    "ar": "أداتان تُذكران معًا دائمًا لكن لكل منهما دور مختلف. نوضّح الفرق ومتى تحتاج كلًّا منهما.",
+    "en": "Two tools that are always mentioned together but play different roles. Here is how they differ and when you need each."
+   },
+   "sections": [
+    {
+     "heading": {
+      "ar": "ما هو Google Analytics 4؟",
+      "en": "What is Google Analytics 4?"
+     },
+     "paragraphs": [
+      {
+       "ar": "Google Analytics 4 أداة تحليل تسجّل تفاعل زوار موقعك على شكل أحداث، وتعرض تقارير عن مصادر الزيارات وسلوك المستخدمين والتحويلات.",
+       "en": "Google Analytics 4 is an analytics tool that records how visitors interact with your site as events and reports on traffic sources, user behavior and conversions."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "وما هو Google Tag Manager؟",
+      "en": "And what is Google Tag Manager?"
+     },
+     "paragraphs": [
+      {
+       "ar": "Google Tag Manager حاوية لإدارة وسوم القياس والإعلان. بدل إضافة كود كل أداة إلى موقعك يدويًا، تضيف كود الحاوية مرة واحدة ثم تدير الوسوم من لوحة واحدة.",
+       "en": "Google Tag Manager is a container for managing measurement and advertising tags. Instead of adding each tool’s code to your site by hand, you add the container once and manage tags from one dashboard."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "كيف يعملان معًا؟",
+      "en": "How do they work together?"
+     },
+     "paragraphs": [
+      {
+       "ar": "يمكن إرسال أحداث Google Analytics 4 عبر Tag Manager، فتبقى إدارة الوسوم منظمة ويسهل تعديلها. الأول يحلل، والثاني ينقل ويدير.",
+       "en": "GA4 events can be sent through Tag Manager, which keeps tag management organized and easy to change. One analyses; the other deploys and manages."
+      },
+      {
+       "ar": "ومهما كانت الأداة، احرص على احترام موافقة الزائر وخصوصيته حيثما تتطلب الأنظمة ذلك.",
+       "en": "Whichever you use, respect visitor consent and privacy where regulations require it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "technical-seo-basics",
+   "category": "seo",
+   "date": "2026-10-06",
+   "title": {
+    "ar": "أساسيات السيو التقني لموقع شركتك",
+    "en": "Technical SEO Basics for Your Company Website"
+   },
+   "excerpt": {
+    "ar": "قبل المحتوى والروابط، يجب أن يستطيع محرك البحث الوصول إلى موقعك وفهمه. هذه أهم الأساسيات.",
+    "en": "Before content and links, search engines must be able to access and understand your site. Here are the essentials."
+   },
+   "sections": [
+    {
+     "heading": {
+      "ar": "الزحف والفهرسة",
+      "en": "Crawling and indexing"
+     },
+     "paragraphs": [
+      {
+       "ar": "يكتشف محرك البحث صفحاتك بالزحف إليها ثم يقرر فهرستها. تأكد من وجود خريطة موقع XML وملف robots.txt سليم، ومن عدم حجب صفحات مهمة عن طريق الخطأ.",
+       "en": "Search engines discover your pages by crawling and then decide whether to index them. Make sure you have an XML sitemap and a sound robots.txt, and that important pages are not blocked by mistake."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "السرعة وتجربة الجوال",
+      "en": "Speed and mobile experience"
+     },
+     "paragraphs": [
+      {
+       "ar": "الصفحات البطيئة أو غير المتجاوبة تُتعب الزائر وتضعف تجربته. اضغط الصور، وقلّل الشيفرة غير الضرورية، واختبر الموقع على أجهزة مختلفة.",
+       "en": "Slow or unresponsive pages frustrate visitors. Compress images, cut unnecessary code and test your site on different devices."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "البيانات المنظمة والعناوين",
+      "en": "Structured data and metadata"
+     },
+     "paragraphs": [
+      {
+       "ar": "عنوان فريد ووصف واضح لكل صفحة، مع بيانات Schema.org مناسبة، يساعد محركات البحث على فهم الصفحة وعرضها بشكل أفضل. وتذكّر أن النتائج تتفاوت بحسب المنافسة وحالة الموقع.",
+       "en": "A unique title and clear description for every page, plus suitable Schema.org markup, help search engines understand and present the page better. Remember that results vary with competition and the condition of your site."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "website-or-online-store",
+   "category": "software-development",
+   "date": "2026-10-03",
+   "title": {
+    "ar": "موقع تعريفي أم متجر إلكتروني: كيف تختار؟",
+    "en": "Company Website or Online Store: How to Choose?"
+   },
+   "excerpt": {
+    "ar": "القرار يبدأ من سؤال بسيط: ماذا تريد من زائر موقعك أن يفعل؟",
+    "en": "The decision starts with a simple question: what do you want a visitor to do?"
+   },
+   "sections": [
+    {
+     "heading": {
+      "ar": "متى يكفيك موقع تعريفي؟",
+      "en": "When a company website is enough"
+     },
+     "paragraphs": [
+      {
+       "ar": "إذا كان هدفك التعريف بخدماتك واستقبال الاستفسارات والاتصالات، فموقع تعريفي واضح مع نموذج تواصل وصفحات خدمات مفصلة غالبًا كافٍ.",
+       "en": "If your goal is to present your services and receive enquiries and calls, a clear company website with a contact form and detailed service pages is often enough."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "متى تحتاج متجرًا؟",
+      "en": "When you need a store"
+     },
+     "paragraphs": [
+      {
+       "ar": "إذا كنت تبيع منتجات أو خدمات بسعر محدد ويستطيع العميل الشراء بنفسه، فأنت بحاجة إلى سلة ودفع وإدارة للطلبات والمخزون.",
+       "en": "If you sell products or services at set prices that customers can buy on their own, you need a cart, payment, and order and inventory management."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "أسئلة تساعدك على القرار",
+      "en": "Questions that help you decide"
+     },
+     "paragraphs": [
+      {
+       "ar": "هل يتغير كتالوجك كثيرًا؟ هل تحتاج إلى ربط الشحن والدفع؟ هل لديك فريق لإدارة الطلبات؟ إجاباتك تحدد حجم المشروع وميزانيته.",
+       "en": "Does your catalogue change often? Do you need shipping and payment integrations? Do you have a team to handle orders? Your answers shape the project’s size and budget."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ad-budget-vs-management-fee",
+   "category": "digital-marketing",
+   "date": "2026-09-29",
+   "title": {
+    "ar": "ميزانية الإعلانات مقابل أتعاب إدارة الحملات",
+    "en": "Ad Budget vs. Campaign Management Fee"
+   },
+   "excerpt": {
+    "ar": "الخلط بين الأمرين يسبب سوء فهم شائعًا عند التعاقد مع وكالة. هذا ما يجب أن تعرفه.",
+    "en": "Mixing the two is a common source of misunderstanding when hiring an agency. Here is what to know."
+   },
+   "sections": [
+    {
+     "heading": {
+      "ar": "ميزانية الإعلانات",
+      "en": "The advertising budget"
+     },
+     "paragraphs": [
+      {
+       "ar": "هي المبلغ الذي تدفعه للمنصة (Meta أو Google أو غيرها) مقابل ظهور إعلاناتك. تُدفع عادة مباشرة من حسابك الإعلاني، وتتحكم أنت في حدّها.",
+       "en": "This is the money you pay the platform (Meta, Google or others) for your ads to run. It is usually paid directly from your ad account and you control its limit."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "أتعاب الإدارة",
+      "en": "The management fee"
+     },
+     "paragraphs": [
+      {
+       "ar": "هي مقابل عمل الفريق: الإعداد والتتبع والاختبار والتحسين والتقارير. تُحدَّد في الاتفاق وتكون مستقلة عن الميزانية.",
+       "en": "This pays for the team’s work: setup, tracking, testing, optimization and reporting. It is set in the agreement and is independent of the budget."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "أسئلة اطرحها قبل التعاقد",
+      "en": "Questions to ask before signing"
+     },
+     "paragraphs": [
+      {
+       "ar": "من يملك الحساب الإعلاني؟ كيف تُدفع الميزانية؟ ما التقارير المتوفرة ومتى؟ الوضوح في هذه النقاط يمنع المفاجآت لاحقًا.",
+       "en": "Who owns the ad account? How is the budget paid? Which reports are provided and when? Clarity on these points prevents surprises later."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "useful-kpi-dashboard",
+   "category": "business-intelligence",
+   "date": "2026-09-22",
+   "title": {
+    "ar": "من البيانات إلى القرار: كيف تبني لوحة مؤشرات مفيدة؟",
+    "en": "From Data to Decisions: Building a Useful KPI Dashboard"
+   },
+   "excerpt": {
+    "ar": "لوحة المؤشرات الجيدة تجيب عن أسئلة محددة، ولا تكتفي بعرض أكبر قدر من الأرقام.",
+    "en": "A good dashboard answers specific questions rather than just showing as many numbers as possible."
+   },
+   "sections": [
+    {
+     "heading": {
+      "ar": "ابدأ بالأسئلة",
+      "en": "Start with questions"
+     },
+     "paragraphs": [
+      {
+       "ar": "حدد القرارات التي تريد دعمها: أي الحملات تستحق زيادة الميزانية؟ أي المنتجات يتراجع؟ ثم اختر المؤشرات التي تجيب عنها.",
+       "en": "Define the decisions you want to support: which campaigns deserve more budget? Which products are declining? Then choose the indicators that answer them."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "قلّل المؤشرات واخترها بعناية",
+      "en": "Choose fewer, better metrics"
+     },
+     "paragraphs": [
+      {
+       "ar": "عدد قليل من المؤشرات الواضحة أفضل من عشرات الأرقام. اربط كل مؤشر بهدف وبمصدر بيانات موثوق.",
+       "en": "A few clear indicators beat dozens of numbers. Tie each indicator to a goal and a reliable data source."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "حافظ على نظافة البيانات وتحديثها",
+      "en": "Keep data clean and current"
+     },
+     "paragraphs": [
+      {
+       "ar": "جودة اللوحة من جودة بياناتها. نظّف المصادر وأتمت التحديث، وراجع المؤشرات دوريًا لتبقى مرتبطة بأهدافك.",
+       "en": "A dashboard is only as good as its data. Clean your sources, automate updates and review the indicators regularly so they stay tied to your goals."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "website-speed-and-ux-checklist",
+   "category": "technology-trends",
+   "date": "2026-09-15",
+   "title": {
+    "ar": "قائمة مراجعة سريعة لسرعة موقعك وتجربة المستخدم",
+    "en": "A Quick Checklist for Website Speed and User Experience"
+   },
+   "excerpt": {
+    "ar": "خمس نقاط يمكنك مراجعتها اليوم لتعرف أين يحتاج موقعك إلى تحسين.",
+    "en": "Five points you can review today to see where your site needs improvement."
+   },
+   "sections": [
+    {
+     "heading": {
+      "ar": "الصور والوسائط",
+      "en": "Images and media"
+     },
+     "paragraphs": [
+      {
+       "ar": "استخدم صيغًا حديثة وأحجامًا مناسبة، وحمّل الصور الواقعة خارج الشاشة الأولى عند الحاجة فقط.",
+       "en": "Use modern formats and suitable sizes, and load below-the-fold images only when needed."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "استقرار الصفحة",
+      "en": "Layout stability"
+     },
+     "paragraphs": [
+      {
+       "ar": "حدد أبعاد الصور والعناصر مسبقًا حتى لا تقفز الصفحة أثناء التحميل.",
+       "en": "Set image and element dimensions in advance so the page does not jump while loading."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "الجوال أولًا",
+      "en": "Mobile first"
+     },
+     "paragraphs": [
+      {
+       "ar": "اختبر الأزرار والنماذج بإصبعك على شاشة صغيرة، وتأكد من أن النص مقروء دون تكبير.",
+       "en": "Test buttons and forms with your thumb on a small screen and make sure text is readable without zooming."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "سهولة الوصول",
+      "en": "Accessibility"
+     },
+     "paragraphs": [
+      {
+       "ar": "تباين الألوان، وظهور التركيز عند التنقل بلوحة المفاتيح، والنصوص البديلة للصور، كلها تحسّن التجربة للجميع.",
+       "en": "Color contrast, visible focus when navigating by keyboard and alternative text for images improve the experience for everyone."
+      }
+     ]
+    },
+    {
+     "heading": {
+      "ar": "القياس المستمر",
+      "en": "Keep measuring"
+     },
+     "paragraphs": [
+      {
+       "ar": "استخدم أدوات قياس الأداء مثل Lighthouse وتقارير الويب الحيوية، وقارن النتائج بعد كل تغيير.",
+       "en": "Use performance tools such as Lighthouse and Core Web Vitals reports and compare results after each change."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blogCategories": [
+  {
+   "key": "digital-marketing",
+   "label": {
+    "ar": "التسويق الرقمي",
+    "en": "Digital Marketing"
+   }
+  },
+  {
+   "key": "seo",
+   "label": {
+    "ar": "السيو",
+    "en": "SEO"
+   }
+  },
+  {
+   "key": "software-development",
+   "label": {
+    "ar": "تطوير البرمجيات",
+    "en": "Software Development"
+   }
+  },
+  {
+   "key": "data-analytics",
+   "label": {
+    "ar": "تحليل البيانات",
+    "en": "Data Analytics"
+   }
+  },
+  {
+   "key": "business-intelligence",
+   "label": {
+    "ar": "ذكاء الأعمال",
+    "en": "Business Intelligence"
+   }
+  },
+  {
+   "key": "technology-trends",
+   "label": {
+    "ar": "اتجاهات التقنية",
+    "en": "Technology Trends"
+   }
+  }
+ ],
+ "faqs": [
+  {
+   "q": {
+    "ar": "ما أنواع المواقع والأنظمة التي تطورونها؟",
+    "en": "What types of websites and systems do you build?"
+   },
+   "a": {
+    "ar": "نطوّر مواقع الشركات والمتاجر الإلكترونية وصفحات الهبوط وتطبيقات الويب المخصصة وأنظمة الحجز ولوحات التحكم. نحدد النوع الأنسب بعد فهم هدفك.",
+    "en": "We build corporate websites, online stores, landing pages, custom web applications, booking systems and dashboards. We recommend the right type after understanding your goal."
+   }
+  },
+  {
+   "q": {
+    "ar": "كم تستغرق المشاريع؟",
+    "en": "How long do projects take?"
+   },
+   "a": {
+    "ar": "تختلف المدة حسب حجم المشروع ونطاقه وسرعة توفير المحتوى والموافقات. نقدّم جدولًا زمنيًا واضحًا بعد مرحلة الاستكشاف وقبل بدء التنفيذ.",
+    "en": "Timelines vary by project size, scope and how quickly content and approvals are provided. We share a clear schedule after discovery and before work starts."
+   }
+  },
+  {
+   "q": {
+    "ar": "كيف يتم تحديد الأسعار؟",
+    "en": "How is pricing determined?"
+   },
+   "a": {
+    "ar": "يعتمد السعر على نطاق العمل والمتطلبات والخدمات المطلوبة. نقدّم عرض سعر مفصلًا بعد مناقشة مشروعك، ويمكنك طلبه من خلال نموذج الاستشارة.",
+    "en": "Pricing depends on the scope, requirements and services involved. We provide a detailed quote after discussing your project; you can request one through the consultation form."
+   }
+  },
+  {
+   "q": {
+    "ar": "هل ميزانية الإعلانات مشمولة في أتعابكم؟",
+    "en": "Is the advertising budget included in your fees?"
+   },
+   "a": {
+    "ar": "لا. ميزانية الإعلانات تُدفع مباشرة إلى المنصة الإعلانية وتبقى تحت تحكمك، أما أتعابنا فتغطي الإعداد والإدارة والتحسين والتقارير.",
+    "en": "No. The advertising budget is paid directly to the ad platform and stays under your control, while our fee covers setup, management, optimization and reporting."
+   }
+  },
+  {
+   "q": {
+    "ar": "هل تضمنون الوصول إلى المركز الأول في نتائج البحث؟",
+    "en": "Do you guarantee a first-place ranking in search results?"
+   },
+   "a": {
+    "ar": "لا نضمن ترتيبًا محددًا، ولا يستطيع أحد ذلك بصدق. تعتمد النتائج على المنافسة والسوق وحالة الموقع والتنفيذ. نلتزم بعمل منهجي وتقارير شفافة.",
+    "en": "We do not guarantee a specific ranking, and nobody honestly can. Results depend on competition, the market, the website’s condition and implementation. We commit to systematic work and transparent reporting."
+   }
+  },
+  {
+   "q": {
+    "ar": "ماذا أستفيد من تحليل البيانات؟",
+    "en": "What do I gain from data analytics?"
+   },
+   "a": {
+    "ar": "تفهم عملاءك وحملاتك ومبيعاتك بشكل أوضح، وتتابع مؤشراتك في لوحات واضحة، وتتخذ قرارات مبنية على أرقام بدل التخمين.",
+    "en": "You understand your customers, campaigns and sales more clearly, follow your KPIs in clear dashboards, and make decisions based on numbers instead of guesswork."
+   }
+  },
+  {
+   "q": {
+    "ar": "هل تقدمون دعمًا بعد الإطلاق؟",
+    "en": "Do you provide support after launch?"
+   },
+   "a": {
+    "ar": "نعم، يمكن الاتفاق على صيانة ودعم فني مستمر يشمل التحديثات والمتابعة وإصلاح المشكلات، بحسب ما يناسب مشروعك.",
+    "en": "Yes. We can agree on ongoing maintenance and technical support covering updates, monitoring and fixes, depending on what suits your project."
+   }
+  },
+  {
+   "q": {
+    "ar": "كيف تتعاملون مع خصوصية البيانات؟",
+    "en": "How do you handle data privacy?"
+   },
+   "a": {
+    "ar": "نجمع الحد الضروري من البيانات، ونفعّل أدوات القياس بعد موافقة الزائر حيثما لزم، ونحمي معلومات العملاء. تفاصيل أكثر في سياسة الخصوصية.",
+    "en": "We collect only the data we need, enable measurement tools after visitor consent where required, and protect customer information. More detail is in our Privacy Policy."
+   }
+  }
+ ],
+ "projects": [
+  {
+   "id": "demo-corporate-site",
+   "category": "web",
+   "icon": "layout",
+   "title": {
+    "ar": "موقع شركة خدمات (نموذج)",
+    "en": "Services company website (demo)"
+   },
+   "summary": {
+    "ar": "موقع تعريفي متعدد الصفحات بتصميم متجاوب ونموذج استفسار.",
+    "en": "A multi-page company website with responsive design and an enquiry form."
+   },
+   "tags": [
+    "Next.js",
+    "SEO-ready"
+   ]
+  },
+  {
+   "id": "demo-online-store",
+   "category": "web",
+   "icon": "shoppingCart",
+   "title": {
+    "ar": "متجر إلكتروني (نموذج)",
+    "en": "Online store (demo)"
+   },
+   "summary": {
+    "ar": "عرض المنتجات وسلة الشراء والطلبات مع لوحة إدارة.",
+    "en": "Product catalogue, cart and orders with an admin dashboard."
+   },
+   "tags": [
+    "E-commerce",
+    "Dashboard"
+   ]
+  },
+  {
+   "id": "demo-ad-structure",
+   "category": "marketing",
+   "icon": "target",
+   "title": {
+    "ar": "هيكلة حملات إعلانية (نموذج)",
+    "en": "Ad campaign structure (demo)"
+   },
+   "summary": {
+    "ar": "هيكل حملات على عدة منصات مع تتبع للتحويلات وتقرير دوري.",
+    "en": "A multi-platform campaign structure with conversion tracking and periodic reporting."
+   },
+   "tags": [
+    "Meta Ads",
+    "Google Ads"
+   ]
+  },
+  {
+   "id": "demo-sales-dashboard",
+   "category": "data",
+   "icon": "chart",
+   "title": {
+    "ar": "لوحة مبيعات تفاعلية (نموذج)",
+    "en": "Interactive sales dashboard (demo)"
+   },
+   "summary": {
+    "ar": "لوحة مؤشرات تجمع المبيعات والمنتجات والمناطق في مكان واحد.",
+    "en": "A KPI dashboard bringing sales, products and regions together."
+   },
+   "tags": [
+    "Power BI",
+    "SQL"
+   ]
+  },
+  {
+   "id": "demo-seo-audit",
+   "category": "seo",
+   "icon": "search",
+   "title": {
+    "ar": "تدقيق سيو وخطة محتوى (نموذج)",
+    "en": "SEO audit & content plan (demo)"
+   },
+   "summary": {
+    "ar": "تقرير تقني وخطة محتوى مرتبة بحسب الأولوية.",
+    "en": "A technical report and a prioritized content plan."
+   },
+   "tags": [
+    "Technical SEO",
+    "Content"
+   ]
+  },
+  {
+   "id": "demo-booking",
+   "category": "web",
+   "icon": "calendar",
+   "title": {
+    "ar": "نظام حجز مواعيد (نموذج)",
+    "en": "Appointment booking system (demo)"
+   },
+   "summary": {
+    "ar": "حجز إلكتروني مع تأكيد وإدارة للمواعيد.",
+    "en": "Online booking with confirmations and appointment management."
+   },
+   "tags": [
+    "Booking",
+    "Web app"
+   ]
+  }
+ ],
+ "projectCategories": [
+  {
+   "key": "web",
+   "label": {
+    "ar": "تطوير الويب",
+    "en": "Web"
+   }
+  },
+  {
+   "key": "marketing",
+   "label": {
+    "ar": "التسويق",
+    "en": "Marketing"
+   }
+  },
+  {
+   "key": "data",
+   "label": {
+    "ar": "تحليل البيانات",
+    "en": "Data"
+   }
+  },
+  {
+   "key": "seo",
+   "label": {
+    "ar": "السيو",
+    "en": "SEO"
+   }
+  }
+ ],
+ "whyItems": [
+  {
+   "icon": "puzzle",
+   "title": {
+    "ar": "حلول رقمية مخصصة",
+    "en": "Tailored digital solutions"
+   },
+   "text": {
+    "ar": "نبني ما يناسب نشاطك وأهدافك بدل الحلول الجاهزة العامة.",
+    "en": "We build what fits your business and goals instead of generic, ready-made answers."
+   }
+  },
+  {
+   "icon": "chart",
+   "title": {
+    "ar": "قرارات مبنية على البيانات",
+    "en": "Data-driven decisions"
+   },
+   "text": {
+    "ar": "نعتمد على الأرقام والتحليل في اختيار الخطوة التالية.",
+    "en": "We rely on numbers and analysis to choose the next step."
+   }
+  },
+  {
+   "icon": "target",
+   "title": {
+    "ar": "أداء تسويقي قابل للقياس",
+    "en": "Measurable marketing performance"
+   },
+   "text": {
+    "ar": "نربط كل حملة بمؤشرات واضحة تتابعها معنا.",
+    "en": "We tie every campaign to clear indicators that you follow with us."
+   }
+  },
+  {
+   "icon": "cpu",
+   "title": {
+    "ar": "تقنيات حديثة",
+    "en": "Modern technology"
+   },
+   "text": {
+    "ar": "نستخدم تقنيات حديثة وموثوقة تدعم السرعة والاستقرار.",
+    "en": "We use modern, reliable technology that supports speed and stability."
+   }
+  },
+  {
+   "icon": "smartphone",
+   "title": {
+    "ar": "مواقع متجاوبة وسهلة الاستخدام",
+    "en": "Responsive, user-friendly websites"
+   },
+   "text": {
+    "ar": "تجربة مريحة على الجوال والتابلت والحاسوب.",
+    "en": "A comfortable experience on mobile, tablet and desktop."
+   }
+  },
+  {
+   "icon": "messages",
+   "title": {
+    "ar": "تواصل شفاف",
+    "en": "Transparent communication"
+   },
+   "text": {
+    "ar": "نشاركك التقدم والقرارات والتكلفة بوضوح.",
+    "en": "We share progress, decisions and costs openly."
+   }
+  },
+  {
+   "icon": "refresh",
+   "title": {
+    "ar": "تحسين ودعم مستمر",
+    "en": "Continuous improvement & support"
+   },
+   "text": {
+    "ar": "لا ينتهي عملنا عند التسليم؛ نتابع ونطوّر.",
+    "en": "Our work does not end at delivery; we follow up and improve."
+   }
+  }
+ ],
+ "processSteps": [
+  {
+   "title": {
+    "ar": "الاستكشاف والاستشارة",
+    "en": "Discovery & consultation"
+   },
+   "text": {
+    "ar": "نستمع إلى هدفك وجمهورك وتحدياتك ونحدد نطاق العمل.",
+    "en": "We listen to your goals, audience and challenges and define the scope."
+   }
+  },
+  {
+   "title": {
+    "ar": "التحليل والاستراتيجية",
+    "en": "Analysis & strategy"
+   },
+   "text": {
+    "ar": "ندرس السوق والمنافسين والبيانات المتاحة ونضع خطة واضحة.",
+    "en": "We study the market, competitors and available data and shape a clear plan."
+   }
+  },
+  {
+   "title": {
+    "ar": "التخطيط والتصميم",
+    "en": "Planning & design"
+   },
+   "text": {
+    "ar": "نرسم هيكل الحل وتجربة المستخدم والتصميم قبل البدء بالبناء.",
+    "en": "We outline the solution structure, user experience and design before building."
+   }
+  },
+  {
+   "title": {
+    "ar": "التطوير والتنفيذ",
+    "en": "Development & implementation"
+   },
+   "text": {
+    "ar": "نبني الحل أو نطلق الحملات ونشاركك التقدم على مراحل.",
+    "en": "We build the solution or set up campaigns, sharing progress in stages."
+   }
+  },
+  {
+   "title": {
+    "ar": "الاختبار والإطلاق",
+    "en": "Testing & launch"
+   },
+   "text": {
+    "ar": "نختبر الجودة والأداء والتتبع قبل الإطلاق الرسمي.",
+    "en": "We test quality, performance and tracking before the official launch."
+   }
+  },
+  {
+   "title": {
+    "ar": "المتابعة والتحسين",
+    "en": "Monitoring & optimization"
+   },
+   "text": {
+    "ar": "نراقب النتائج ونحسّن بناءً على ما تُظهره البيانات.",
+    "en": "We monitor results and optimize based on what the data shows."
+   }
+  }
+ ],
+ "techGroups": [
+  {
+   "title": {
+    "ar": "تطوير الويب",
+    "en": "Web development"
+   },
+   "items": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "C#",
+    "SQL",
+    "Angular"
+   ]
+  },
+  {
+   "title": {
+    "ar": "منصات الإعلان",
+    "en": "Advertising platforms"
+   },
+   "items": [
+    "Meta Ads",
+    "Google Ads",
+    "Snapchat Ads",
+    "TikTok Ads",
+    "YouTube Ads"
+   ]
+  },
+  {
+   "title": {
+    "ar": "التحليلات والقياس",
+    "en": "Analytics & measurement"
+   },
+   "items": [
+    "Google Analytics 4",
+    "Google Tag Manager",
+    "Meta Pixel",
+    "Power BI",
+    "Excel",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "title": {
+    "ar": "تحسين محركات البحث",
+    "en": "SEO"
+   },
+   "items": [
+    "Google Search Console",
+    "Google Business Profile",
+    "Schema.org"
+   ]
+  }
+ ]
+}

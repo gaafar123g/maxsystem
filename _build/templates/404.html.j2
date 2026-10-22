@@ -1,0 +1,16 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+<section class="section notfound">
+  <div class="hero-bg light" aria-hidden="true"></div>
+  <div class="container text-center position-relative">
+    <p class="nf-code" dir="ltr">{{ d.notFound.code }}</p>
+    <h1 class="h2 fw-bold">{{ d.notFound.title }}</h1>
+    <p class="section-sub mx-auto">{{ d.notFound.text }}</p>
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+      <a class="btn btn-cta btn-lg" href="{{ u('index.html') }}">{{ d.notFound.home }}</a>
+      <a class="btn btn-outline-brand btn-lg" href="{{ u('contact.html') }}">{{ d.nav.contact }}</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

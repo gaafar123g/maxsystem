@@ -1,0 +1,34 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero, cta_band with context %}
+
+{% block content %}
+{{ page_hero(d.projectsSection.title, d.projectsSection.subtitle, d.projectsSection.eyebrow) }}
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar" role="group" aria-label="{{ d.projectsSection.filterLabel }}" data-reveal data-filter-group="projects">
+      <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">{{ d.common.all }}</button>
+      {% for c in project_categories %}<button type="button" class="filter-btn" data-filter="{{ c.key }}" aria-pressed="false">{{ c.label[lang] }}</button>
+      {% endfor %}
+    </div>
+    <ul class="row g-4 mt-2 list-unstyled" data-filter-items="projects">
+      {% for p in projects %}
+      <li class="col-md-6 col-lg-4" data-category="{{ p.category }}">
+        <article class="card-x project-card h-100">
+          <div class="project-thumb"><i class="bi {{ icons[p.icon] }}" aria-hidden="true"></i><span class="demo-badge">{{ d.common.demoBadge }}</span></div>
+          <div class="project-body">
+            <span class="project-cat">{% for c in project_categories if c.key == p.category %}{{ c.label[lang] }}{% endfor %}</span>
+            <h2 class="h5">{{ p.title[lang] }}</h2>
+            <p>{{ p.summary[lang] }}</p>
+            <ul class="tag-list" dir="ltr">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="empty-note" data-filter-empty="projects" hidden>{{ d.projectsSection.noProjects }}</p>
+  </div>
+</section>
+
+{{ cta_band() }}
+{% endblock %}

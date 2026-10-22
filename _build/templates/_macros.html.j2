@@ -1,0 +1,48 @@
+{# Shared building blocks. Import with: {% from "_macros.html.j2" import ... with context %} #}
+
+{% macro icon(name, cls='') -%}
+<i class="bi {{ icons[name] if name in icons else name }} {{ cls }}" aria-hidden="true"></i>
+{%- endmacro %}
+
+{% macro heading(eyebrow, title, subtitle='', light=False, align='center', tag='h2') -%}
+<div class="section-head {{ 'text-center mx-auto' if align == 'center' else 'text-start' }} {{ 'is-light' if light }}">
+  {% if eyebrow %}<span class="eyebrow {{ 'eyebrow-light' if light }}" data-reveal="down">{{ eyebrow }}</span>{% endif %}
+  <{{ tag }} class="section-title" data-reveal data-delay="1">{{ title }}</{{ tag }}>
+  {% if subtitle %}<p class="section-sub" data-reveal data-delay="2">{{ subtitle }}</p>{% endif %}
+</div>
+{%- endmacro %}
+
+{% macro page_hero(title, subtitle='', eyebrow='') -%}
+<section class="page-hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="container position-relative">
+    <nav aria-label="{{ d.a11y.breadcrumb }}" data-reveal="down">
+      <ol class="breadcrumb-x">
+        {% for name, f in crumbs %}
+        <li>{% if f %}<a href="{{ u(f) }}">{{ name }}</a>{% else %}<span aria-current="page">{{ name }}</span>{% endif %}</li>
+        {% endfor %}
+      </ol>
+    </nav>
+    {% if eyebrow %}<span class="eyebrow eyebrow-light mt-4" data-reveal data-delay="1">{{ eyebrow }}</span>{% endif %}
+    <h1 class="page-title" data-reveal data-delay="1">{{ title }}</h1>
+    {% if subtitle %}<p class="page-lead" data-reveal data-delay="2">{{ subtitle }}</p>{% endif %}
+    {{ caller() if caller else '' }}
+  </div>
+</section>
+{%- endmacro %}
+
+{% macro cta_band() -%}
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-card" data-reveal="fade">
+      <h2>{{ d.cta.title }}</h2>
+      <p>{{ d.cta.text }}</p>
+      <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+        <a class="btn btn-cta btn-lg" href="{{ u('contact.html') }}">{{ d.cta.contact }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></a>
+        <a class="btn btn-ghost-light btn-lg" href="{{ u('contact.html') }}">{{ d.cta.quote }}</a>
+      </div>
+      <p class="mt-4 mb-0"><a class="cta-wa" data-wa hidden target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> {{ d.cta.whatsapp }}<span class="visually-hidden"> {{ d.a11y.externalLink }}</span></a></p>
+    </div>
+  </div>
+</section>
+{%- endmacro %}

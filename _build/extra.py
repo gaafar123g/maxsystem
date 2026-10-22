@@ -1,0 +1,227 @@
+# -*- coding: utf-8 -*-
+"""Extra bilingual strings that are specific to the static site and to the Saudi + Egyptian markets.
+They are merged on top of the dictionaries exported from the Next.js project (content.json)."""
+
+EXTRA = {
+    "ar": {
+        "markets": {
+            "eyebrow": "الأسواق التي نعمل فيها",
+            "title": "حلول تفهم سوقك: السعودية ومصر",
+            "subtitle": "نصمّم المواقع والحملات حسب عادات التسوق والدفع والتواصل في كل سوق، بدل قالب واحد للجميع.",
+            "strip": "نعمل مع عملاء في",
+            "sa": {
+                "name": "المملكة العربية السعودية",
+                "short": "السعودية",
+                "cities": ["الرياض", "جدة", "الدمام", "مكة المكرمة", "المدينة المنورة"],
+                "points": [
+                    "واجهات عربية RTL أولًا ونصوص إعلانية بأسلوب قريب من الجمهور الخليجي.",
+                    "حملات على سناب شات وتيك توك وميتا وجوجل بحسب طبيعة جمهورك.",
+                    "واتساب كقناة أساسية لاستقبال الاستفسارات والطلبات.",
+                    "مراعاة نظام حماية البيانات الشخصية (PDPL) عند جمع بيانات العملاء.",
+                    "ربط وسائل الدفع المحلية مثل مدى وApple Pay وSTC Pay وتابي وتمارا حيث تتوفر وتناسب المشروع.",
+                ],
+            },
+            "eg": {
+                "name": "جمهورية مصر العربية",
+                "short": "مصر",
+                "cities": ["القاهرة", "الجيزة", "الإسكندرية", "المنصورة", "طنطا"],
+                "points": [
+                    "نصوص ومحتوى بلهجة قريبة من الجمهور المصري عند الحاجة.",
+                    "حملات ميتا (فيسبوك وإنستجرام) وتيك توك وجوجل بميزانيات بالجنيه المصري.",
+                    "مواقع سريعة وخفيفة تعمل جيدًا على الجوالات المتوسطة والشبكات المتفاوتة.",
+                    "استقبال الطلبات عبر واتساب والمكالمات والنماذج.",
+                    "ربط وسائل الدفع المحلية مثل فوري وإنستاباي والمحافظ الإلكترونية حيث تتوفر وتناسب المشروع.",
+                    "مراعاة قانون حماية البيانات الشخصية المصري عند جمع بيانات العملاء.",
+                ],
+            },
+            "note": "تكامل بوابات الدفع وأنظمة الفوترة يتم بحسب توفر الخدمة وطبيعة المشروع، وتُؤكَّد التفاصيل قبل التعاقد.",
+            "cta": "ناقش مشروعك في سوقك",
+        },
+        "topbar": {"label": "الشريط العلوي", "call": "اتصل بنا", "whatsapp": "واتساب", "email": "راسلنا", "markets": "نخدم السعودية ومصر"},
+        "hero2": {
+            "badge": "السعودية · مصر",
+            "since": "منذ 2009",
+            "sinceLong": "نعمل مع الشركات منذ 2009",
+            "slidesLabel": "عرض صور الخدمات",
+            "slides": [
+                {"kicker": "تطوير البرمجيات والمواقع"},
+                {"kicker": "التسويق الرقمي والإعلانات", "title": "حملات إعلانية", "hl": "تجلب عملاء حقيقيين", "text": "نخطط وندير حملات Meta وGoogle وSnapchat وTikTok مع تتبع واضح لكل ريال وجنيه يُصرف على الإعلان.", "cta": "خدمة التسويق الرقمي", "href": "service-digital-marketing.html"},
+                {"kicker": "تحليل البيانات ولوحات المتابعة", "title": "قرارات تعتمد على", "hl": "أرقام واضحة", "text": "لوحات متابعة وتقارير بـ SQL وPower BI وGA4 تربط الإعلانات والمبيعات في مكان واحد.", "cta": "خدمة تحليل البيانات", "href": "service-data-analytics.html"},
+            ],
+            "slideAlts": ["تطوير المواقع والتطبيقات", "التسويق الرقمي والإعلانات", "تحليل البيانات ولوحات المتابعة"],
+            "prev": "السابق", "next": "التالي", "goTo": "الانتقال إلى الصورة",
+            "stat1": "عربي أولًا",
+            "stat2": "واتساب مباشر",
+            "stat3": "قياس وتتبع",
+        },
+        "contactx": {
+            "hoursTitle": "ساعات العمل",
+            "countryHint": "اختر دولتك لنعرض لك رقم الواتساب والتنسيق المناسب.",
+            "waCardTitle": "تواصل سريع عبر واتساب",
+            "chooseMarket": "اختر السوق",
+            "viaWhatsapp": "أرسل الطلب عبر واتساب",
+        },
+        "formx": {
+            "selectCountry": "اختر الدولة",
+            "countries": {"sa": "المملكة العربية السعودية", "eg": "جمهورية مصر العربية", "other": "دولة أخرى"},
+            "currency": "العملة",
+            "phonePlaceholder": {"sa": "05X XXX XXXX", "eg": "01X XXXX XXXX", "other": "+XXX XXX XXX XXX"},
+            "cityPlaceholder": {"sa": "مثال: الرياض", "eg": "مثال: القاهرة", "other": ""},
+            "cities": {
+                "sa": ["الرياض", "جدة", "الدمام", "الخبر", "مكة المكرمة", "المدينة المنورة", "الطائف", "أبها", "تبوك", "بريدة"],
+                "eg": ["القاهرة", "الجيزة", "الإسكندرية", "المنصورة", "طنطا", "الإسماعيلية", "بورسعيد", "السويس", "أسيوط", "الأقصر"],
+                "other": [],
+            },
+            "errors": {
+                "phoneSa": "أدخل رقم جوال سعودي صحيحًا، مثل 05XXXXXXXX أو +9665XXXXXXXX.",
+                "phoneEg": "أدخل رقم موبايل مصريًا صحيحًا، مثل 01XXXXXXXXX أو +201XXXXXXXXX.",
+                "country": "اختر الدولة.",
+                "select": "اختر من القائمة.",
+            },
+            "notConfiguredTitle": "الإرسال المباشر غير مفعّل بعد",
+            "notConfiguredText": "لم يتم إرسال طلبك. يمكنك إرساله الآن عبر واتساب بنفس البيانات.",
+            "noChannel": "لا توجد وسيلة تواصل مفعّلة حاليًا. حاول لاحقًا.",
+            "required": "هذا الحقل مطلوب.",
+            "waIntro": "طلب استشارة جديد من موقع ماكس سيستم",
+            "waLabels": {
+                "name": "الاسم", "company": "الشركة", "phone": "الجوال", "email": "الإيميل",
+                "country": "الدولة", "city": "المدينة", "service": "الخدمة", "budget": "الميزانية", "details": "تفاصيل المشروع",
+            },
+        },
+        "ui": {
+            "menu": "القائمة",
+            "darkSkip": "تخطّي",
+            "openWhatsapp": "فتح واتساب",
+            "call": "اتصال",
+            "whatsapp": "واتساب",
+            "chooseNumber": "اختر الرقم",
+            "close": "إغلاق",
+            "ctaStrip": "جاهز تبدأ؟",
+            "requestService": "اطلب هذه الخدمة",
+            "details": "التفاصيل",
+            "searchNoResults": "لا توجد نتائج مطابقة.",
+            "filterAll": "الكل",
+            "updated": "آخر تحديث",
+            "tel": "هاتف",
+        },
+    },
+    "en": {
+        "markets": {
+            "eyebrow": "Markets we serve",
+            "title": "Solutions that understand your market: Saudi Arabia & Egypt",
+            "subtitle": "We design websites and campaigns around how people shop, pay and communicate in each market, not one template for everyone.",
+            "strip": "Serving clients in",
+            "sa": {
+                "name": "Saudi Arabia",
+                "short": "Saudi Arabia",
+                "cities": ["Riyadh", "Jeddah", "Dammam", "Makkah", "Madinah"],
+                "points": [
+                    "Arabic-first RTL interfaces and ad copy that feels natural to a Gulf audience.",
+                    "Campaigns on Snapchat, TikTok, Meta and Google depending on your audience.",
+                    "WhatsApp as a primary channel for enquiries and orders.",
+                    "Awareness of the Personal Data Protection Law (PDPL) when collecting customer data.",
+                    "Local payment methods such as mada, Apple Pay, STC Pay, Tabby and Tamara where available and suitable for the project.",
+                ],
+            },
+            "eg": {
+                "name": "Egypt",
+                "short": "Egypt",
+                "cities": ["Cairo", "Giza", "Alexandria", "Mansoura", "Tanta"],
+                "points": [
+                    "Copy and content in a tone close to the Egyptian audience when needed.",
+                    "Meta (Facebook & Instagram), TikTok and Google campaigns with budgets in Egyptian pounds.",
+                    "Fast, lightweight websites that run well on mid-range phones and uneven networks.",
+                    "Enquiries and orders by WhatsApp, phone calls and forms.",
+                    "Local payment methods such as Fawry, InstaPay and e-wallets where available and suitable for the project.",
+                    "Awareness of Egypt's Personal Data Protection Law when collecting customer data.",
+                ],
+            },
+            "note": "Payment-gateway and invoicing integrations depend on service availability and the nature of the project, and are confirmed before contracting.",
+            "cta": "Discuss your project in your market",
+        },
+        "topbar": {"label": "Top bar", "call": "Call us", "whatsapp": "WhatsApp", "email": "Email us", "markets": "Serving Saudi Arabia & Egypt"},
+        "hero2": {
+            "badge": "Saudi Arabia · Egypt",
+            "since": "Since 2009",
+            "sinceLong": "Serving businesses since 2009",
+            "slidesLabel": "Service image slider",
+            "slides": [
+                {"kicker": "Software & Web Development"},
+                {"kicker": "Digital Marketing & Advertising", "title": "Ad campaigns that", "hl": "bring real customers", "text": "We plan and run Meta, Google, Snapchat and TikTok campaigns with clear tracking for every riyal and pound spent on ads.", "cta": "Digital marketing service", "href": "service-digital-marketing.html"},
+                {"kicker": "Data Analytics & Dashboards", "title": "Decisions based on", "hl": "clear numbers", "text": "Dashboards and reports built with SQL, Power BI and GA4 that bring ads and sales together in one place.", "cta": "Data analytics service", "href": "service-data-analytics.html"},
+            ],
+            "slideAlts": ["Website and app development", "Digital marketing and advertising", "Data analytics and dashboards"],
+            "prev": "Previous", "next": "Next", "goTo": "Go to image",
+            "stat1": "Arabic-first",
+            "stat2": "Direct WhatsApp",
+            "stat3": "Tracking built in",
+        },
+        "contactx": {
+            "hoursTitle": "Business hours",
+            "countryHint": "Choose your country and we will show the right WhatsApp number and format.",
+            "waCardTitle": "Quick contact on WhatsApp",
+            "chooseMarket": "Choose a market",
+            "viaWhatsapp": "Send the request via WhatsApp",
+        },
+        "formx": {
+            "selectCountry": "Select a country",
+            "countries": {"sa": "Saudi Arabia", "eg": "Egypt", "other": "Another country"},
+            "currency": "Currency",
+            "phonePlaceholder": {"sa": "05X XXX XXXX", "eg": "01X XXXX XXXX", "other": "+XXX XXX XXX XXX"},
+            "cityPlaceholder": {"sa": "e.g. Riyadh", "eg": "e.g. Cairo", "other": ""},
+            "cities": {
+                "sa": ["Riyadh", "Jeddah", "Dammam", "Khobar", "Makkah", "Madinah", "Taif", "Abha", "Tabuk", "Buraidah"],
+                "eg": ["Cairo", "Giza", "Alexandria", "Mansoura", "Tanta", "Ismailia", "Port Said", "Suez", "Asyut", "Luxor"],
+                "other": [],
+            },
+            "errors": {
+                "phoneSa": "Enter a valid Saudi mobile number, e.g. 05XXXXXXXX or +9665XXXXXXXX.",
+                "phoneEg": "Enter a valid Egyptian mobile number, e.g. 01XXXXXXXXX or +201XXXXXXXXX.",
+                "country": "Select a country.",
+                "select": "Please choose from the list.",
+            },
+            "notConfiguredTitle": "Direct sending is not enabled yet",
+            "notConfiguredText": "Your request was not sent. You can send it now by WhatsApp with the same details.",
+            "noChannel": "No contact channel is enabled at the moment. Please try again later.",
+            "required": "This field is required.",
+            "waIntro": "New consultation request from the MAX SYSTEM website",
+            "waLabels": {
+                "name": "Name", "company": "Company", "phone": "Mobile", "email": "Email",
+                "country": "Country", "city": "City", "service": "Service", "budget": "Budget", "details": "Project details",
+            },
+        },
+        "ui": {
+            "menu": "Menu",
+            "darkSkip": "Skip",
+            "openWhatsapp": "Open WhatsApp",
+            "call": "Call",
+            "whatsapp": "WhatsApp",
+            "chooseNumber": "Choose a number",
+            "close": "Close",
+            "ctaStrip": "Ready to start?",
+            "requestService": "Request this service",
+            "details": "Details",
+            "searchNoResults": "No matching results.",
+            "filterAll": "All",
+            "updated": "Last updated",
+            "tel": "Phone",
+        },
+    },
+}
+
+MONTHS = {
+    "ar": ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+    "en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+}
+
+# Bootstrap Icons class for each icon name used in the exported content.
+ICONS = {
+    # services
+    "code": "bi-code-slash", "megaphone": "bi-megaphone", "target": "bi-bullseye", "search": "bi-search",
+    "chart": "bi-bar-chart-line", "activity": "bi-activity", "sparkles": "bi-stars",
+    # why / projects
+    "puzzle": "bi-puzzle", "cpu": "bi-cpu", "smartphone": "bi-phone", "messages": "bi-chat-dots",
+    "refresh": "bi-arrow-repeat", "layout": "bi-layout-text-window-reverse", "shoppingCart": "bi-cart3",
+    "calendar": "bi-calendar-check",
+}
+ICONS_WHY = {"chart": "bi-graph-up-arrow"}

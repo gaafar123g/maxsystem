@@ -1,0 +1,82 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero, cta_band with context %}
+
+{% block jsonld %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": article.title[lang],
+  "description": article.excerpt[lang],
+  "datePublished": article.date,
+  "dateModified": article.date,
+  "inLanguage": lang,
+  "mainEntityOfPage": canonical,
+  "image": site ~ "/assets/img/og-default.png",
+  "author": {"@type": "Organization", "name": d.brand_name, "url": site ~ ("/en/" if lang == "en" else "/")},
+  "publisher": {"@type": "Organization", "name": d.brand_name, "logo": {"@type": "ImageObject", "url": site ~ "/assets/img/logo-mark.png"}}
+} | tojson }}</script>
+{% endblock %}
+
+{% block content %}
+{% call page_hero(article.title[lang]) %}
+<div class="article-meta" data-reveal data-delay="2">
+  <span class="pill pill-light">{{ cat_label }}</span>
+  <span>{{ d.blog.publishedOn }}: <time datetime="{{ article.date }}">{{ fmt_date(article.date) }}</time></span>
+  <span><i class="bi bi-clock" aria-hidden="true"></i> {{ d.blog.readingTime | replace('{n}', minutes(article) | string) }}</span>
+  <span>{{ d.blog.author }}</span>
+</div>
+{% endcall %}
+
+<article class="section">
+  <div class="container">
+    <div class="article-body mx-auto">
+      <p class="article-excerpt" data-reveal>{{ article.excerpt[lang] }}</p>
+      {% for s in article.sections %}
+      <section data-reveal="up">
+        <h2>{{ s.heading[lang] }}</h2>
+        {% for p in s.paragraphs %}<p>{{ p[lang] }}</p>
+        {% endfor %}
+      </section>
+      {% endfor %}
+
+      <div class="share-bar" data-reveal data-share data-title="{{ article.title[lang] }}">
+        <strong>{{ d.blog.share }}</strong>
+        <ul>
+          <li><a data-share-net="facebook" target="_blank" rel="noopener" aria-label="{{ d.blog.shareOn | replace('{name}', 'Facebook') }} {{ d.a11y.externalLink }}"><i class="bi bi-facebook" aria-hidden="true"></i></a></li>
+          <li><a data-share-net="x" target="_blank" rel="noopener" aria-label="{{ d.blog.shareOn | replace('{name}', 'X') }} {{ d.a11y.externalLink }}"><i class="bi bi-twitter-x" aria-hidden="true"></i></a></li>
+          <li><a data-share-net="linkedin" target="_blank" rel="noopener" aria-label="{{ d.blog.shareOn | replace('{name}', 'LinkedIn') }} {{ d.a11y.externalLink }}"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
+          <li><a data-share-net="whatsapp" target="_blank" rel="noopener" aria-label="{{ d.blog.shareOn | replace('{name}', 'WhatsApp') }} {{ d.a11y.externalLink }}"><i class="bi bi-whatsapp" aria-hidden="true"></i></a></li>
+          <li><button type="button" data-copy-link aria-label="{{ d.blog.copyLink }}"><i class="bi bi-link-45deg" aria-hidden="true"></i></button></li>
+        </ul>
+        <span class="copied-msg" role="status" data-copied-msg></span>
+      </div>
+
+      <div class="article-cta" data-reveal>
+        <h2>{{ d.blog.ctaTitle }}</h2>
+        <p>{{ d.blog.ctaText }}</p>
+        <a class="btn btn-cta" href="{{ u('contact.html') }}">{{ d.common.contactUs }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</article>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title text-start" data-reveal="start">{{ d.blog.related }}</h2>
+    <ul class="row g-4 mt-2 list-unstyled" data-stagger>
+      {% for a in related_articles %}
+      <li class="col-md-4" data-reveal="up">
+        <article class="card-x blog-card h-100">
+          <div class="blog-strip" aria-hidden="true"></div>
+          <div class="blog-body">
+            <h3 class="h6"><a class="stretched-link" href="{{ u('blog-' ~ a.slug ~ '.html') }}">{{ a.title[lang] }}</a></h3>
+            <p>{{ a.excerpt[lang] }}</p>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="mt-4"><a class="more-link" href="{{ u('blog.html') }}"><i class="bi bi-arrow-{{ 'right' if lang == 'ar' else 'left' }}" aria-hidden="true"></i> {{ d.blog.backToBlog }}</a></p>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero, cta_band with context %}
+
+{% block content %}
+{{ page_hero(d.blog.title, d.blog.subtitle) }}
+
+<section class="section">
+  <div class="container">
+    <div class="blog-tools" data-reveal>
+      <div class="filter-bar mb-0 justify-content-start" role="group" aria-label="{{ d.blog.categoriesLabel }}" data-filter-group="blog">
+        <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">{{ d.common.all }}</button>
+        {% for c in blog_categories %}<button type="button" class="filter-btn" data-filter="{{ c.key }}" aria-pressed="false">{{ c.label[lang] }}</button>
+        {% endfor %}
+      </div>
+      <div class="search-box">
+        <label for="blog-search" class="visually-hidden">{{ d.blog.searchLabel }}</label>
+        <i class="bi bi-search" aria-hidden="true"></i>
+        <input id="blog-search" type="search" class="form-control" placeholder="{{ d.blog.searchPlaceholder }}" data-search="blog" autocomplete="off">
+      </div>
+    </div>
+
+    <ul class="row g-4 mt-1 list-unstyled" data-filter-items="blog">
+      {% for a in articles %}
+      <li class="col-md-6 col-lg-4" data-category="{{ a.category }}" data-text="{{ (a.title[lang] ~ ' ' ~ a.excerpt[lang]) | lower }}">
+        <article class="card-x blog-card h-100">
+          <div class="blog-strip" aria-hidden="true"></div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span class="pill">{% for c in blog_categories if c.key == a.category %}{{ c.label[lang] }}{% endfor %}</span>
+              <span>{{ d.blog.readingTime | replace('{n}', minutes(a) | string) }}</span>
+            </div>
+            <h2 class="h5"><a class="stretched-link" href="{{ u('blog-' ~ a.slug ~ '.html') }}">{{ a.title[lang] }}</a></h2>
+            <p>{{ a.excerpt[lang] }}</p>
+            <div class="blog-foot"><time datetime="{{ a.date }}">{{ fmt_date(a.date) }}</time><span class="more-link">{{ d.common.readMore }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></span></div>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="empty-note" data-filter-empty="blog" hidden>{{ d.blog.noResults }}</p>
+  </div>
+</section>
+
+{{ cta_band() }}
+{% endblock %}

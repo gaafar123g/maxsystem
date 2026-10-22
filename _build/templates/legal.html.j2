@@ -1,0 +1,22 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero with context %}
+
+{% block content %}
+{{ page_hero(doc.title, doc.subtitle) }}
+
+<section class="section">
+  <div class="container">
+    <div class="legal-body mx-auto">
+      <p class="text-muted-2">{{ d.legal.lastUpdated }}: {{ d.legal.updatedValue }}</p>
+      <div class="notice" data-legal-draft><i class="bi bi-info-circle" aria-hidden="true"></i><div><p>{{ d.legal.draftNotice }}</p></div></div>
+      {% for s in doc.sections %}
+      <section data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+        <h2><span dir="ltr" class="num">{{ loop.index }}.</span> {{ s.heading }}</h2>
+        {% for p in s.body %}<p>{{ p }}</p>
+        {% endfor %}
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

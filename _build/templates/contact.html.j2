@@ -1,0 +1,134 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero, cta_band with context %}
+
+{% block content %}
+{{ page_hero(d.contactPage.title, d.contactPage.subtitle) }}
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-8" data-reveal="start">
+        <div class="card-x form-card">
+          <h2 class="h3 fw-bold mb-1">{{ d.contactPage.formTitle }}</h2>
+          <p class="text-muted-2 mb-4">{{ d.contactx.countryHint }}</p>
+
+          <div id="form-feedback" aria-live="polite"></div>
+
+          <form id="contact-form" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="f-fullName" class="form-label">{{ d.form.fullName }}</label>
+                <input id="f-fullName" name="fullName" type="text" class="form-control" autocomplete="name" required>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-md-6">
+                <label for="f-company" class="form-label">{{ d.form.company }} <span class="opt">({{ d.form.optional }})</span></label>
+                <input id="f-company" name="company" type="text" class="form-control" autocomplete="organization">
+              </div>
+
+              <div class="col-md-6">
+                <label for="f-country" class="form-label">{{ d.form.country }}</label>
+                <select id="f-country" name="country" class="form-select" required autocomplete="country-name">
+                  <option value="">{{ d.formx.selectCountry }}</option>
+                  <option value="sa">{{ d.formx.countries.sa }}</option>
+                  <option value="eg">{{ d.formx.countries.eg }}</option>
+                  <option value="other">{{ d.formx.countries.other }}</option>
+                </select>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-md-6">
+                <label for="f-phone" class="form-label">{{ d.form.phone }}</label>
+                <input id="f-phone" name="phone" type="tel" inputmode="tel" dir="ltr" class="form-control text-start" autocomplete="tel" placeholder="{{ d.formx.phonePlaceholder.other }}" required>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-md-6">
+                <label for="f-email" class="form-label">{{ d.form.email }}</label>
+                <input id="f-email" name="email" type="email" inputmode="email" dir="ltr" class="form-control text-start" autocomplete="email" required>
+                <div class="invalid-feedback"></div>
+              </div>
+
+              <div class="col-md-6">
+                <label for="f-service" class="form-label">{{ d.form.service }}</label>
+                <select id="f-service" name="service" class="form-select" required>
+                  <option value="">{{ d.form.selectService }}</option>
+                  {% for s in services %}<option value="{{ s.slug }}">{{ s.title[lang] }}</option>
+                  {% endfor %}
+                  <option value="other">{{ d.form.otherService }}</option>
+                </select>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-12">
+                <label for="f-budget" class="form-label">{{ d.form.budget }}</label>
+                <div class="input-group" dir="{{ dir }}">
+                  <input id="f-budget" name="budget" type="text" inputmode="numeric" class="form-control" aria-describedby="budget-hint">
+                  <select id="f-currency" name="currency" class="form-select budget-currency" aria-label="{{ d.formx.currency }}">
+                    <option value="SAR">SAR</option>
+                    <option value="EGP">EGP</option>
+                    <option value="USD">USD</option>
+                  </select>
+                </div>
+                <div id="budget-hint" class="form-text">{{ d.form.budgetHint }}</div>
+              </div>
+
+              <div class="col-12">
+                <label for="f-details" class="form-label">{{ d.form.details }}</label>
+                <textarea id="f-details" name="details" rows="5" class="form-control" required></textarea>
+                <div class="form-text">{{ d.form.detailsHint }}</div>
+                <div class="invalid-feedback"></div>
+              </div>
+
+              <fieldset class="col-12">
+                <legend class="form-label">{{ d.form.preferred }}</legend>
+                <div class="d-flex flex-wrap gap-2">
+                  {% for k in ['whatsapp', 'phone', 'email'] %}
+                  <label class="choice"><input class="form-check-input" type="radio" name="preferredContact" value="{{ k }}" {{ 'checked' if loop.first }}> {{ d.form.preferredOptions[k] }}</label>
+                  {% endfor %}
+                </div>
+              </fieldset>
+
+              {# honeypot — hidden from people, tempting for bots #}
+              <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+              <div class="col-12">
+                <div class="form-check consent">
+                  <input class="form-check-input" type="checkbox" id="f-consent" name="consent" required>
+                  <label class="form-check-label" for="f-consent">{{ d.form.consentBefore }} <a href="{{ u('privacy-policy.html') }}" target="_blank">{{ d.form.consentLink }}</a>.</label>
+                  <div class="invalid-feedback"></div>
+                </div>
+              </div>
+
+              <div class="col-12 d-flex flex-column flex-sm-row gap-3 mt-2">
+                <button type="submit" class="btn btn-cta btn-lg" id="submit-btn"><span class="btn-label">{{ d.form.submit }}</span><span class="spinner-border spinner-border-sm d-none" aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-wa btn-lg" id="wa-submit" hidden><i class="bi bi-whatsapp" aria-hidden="true"></i> {{ d.contactx.viaWhatsapp }}</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <aside class="col-lg-4" data-reveal="end" data-delay="1">
+        <div class="card-x mb-4">
+          <h2 class="h5 fw-bold">{{ d.contactPage.infoTitle }}</h2>
+          <ul class="footer-contact on-light" data-contact-list>
+            <li class="muted" data-contact-pending>{{ d.contactPage.pending }}</li>
+          </ul>
+        </div>
+        <div class="card-x wa-card mb-4" data-wa-chooser hidden>
+          <i class="bi bi-whatsapp wa-big" aria-hidden="true"></i>
+          <h2 class="h5 fw-bold">{{ d.contactx.waCardTitle }}</h2>
+          <p>{{ d.contactPage.whatsappText }}</p>
+          <div class="d-grid gap-2" data-wa-buttons></div>
+        </div>
+        <div class="card-x" data-social-wrap hidden>
+          <h2 class="h5 fw-bold">{{ d.contactPage.socialTitle }}</h2>
+          <ul class="social-list on-light" data-social-list></ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts_extra %}
+<script src="{{ A }}assets/js/form.js" defer></script>
+{% endblock %}

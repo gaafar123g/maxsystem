@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="{{ lang }}" dir="{{ dir }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="theme-color" content="#092342">
+  {% if noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
+  <link rel="canonical" href="{{ canonical }}">
+  {% if not noindex %}
+  {% for hl, href in alts %}<link rel="alternate" hreflang="{{ hl }}" href="{{ href }}">
+  {% endfor %}
+  {% endif %}
+
+  <meta property="og:type" content="{{ 'article' if page.article is defined else 'website' }}">
+  <meta property="og:site_name" content="MAX SYSTEM — ماكس سيستم للبرمجيات">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:locale" content="{{ og_locale }}">
+  <meta property="og:locale:alternate" content="{{ og_alt_locale }}">
+  <meta property="og:image" content="{{ site }}/assets/img/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="{{ site }}/assets/img/og-default.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ A }}assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ A }}assets/img/favicon-192.png">
+  <link rel="apple-touch-icon" href="{{ A }}assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="{{ cdn.fonts }}">
+  <link rel="stylesheet" href="{{ cdn.bs_css_rtl if dir == 'rtl' else cdn.bs_css_ltr }}">
+  <link rel="stylesheet" href="{{ cdn.icons }}">
+  <link rel="stylesheet" href="{{ A }}assets/css/style.css">
+
+  <script>
+    /* Runs before first paint: enables scroll-reveal styling, skips the loader on repeat visits. */
+    document.documentElement.classList.add('js');
+    try {
+      if (sessionStorage.getItem('ms-preloaded') === '1') document.documentElement.setAttribute('data-preloaded', '');
+      {% if lang == 'ar' and key == 'home' %}
+      if (localStorage.getItem('ms-lang') === 'en') location.replace('en/');
+      {% endif %}
+    } catch (e) {}
+  </script>
+  <noscript><style>.preloader{display:none!important}[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+
+  <script type="application/ld+json" id="ld-org">{{ {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": site ~ "/#organization",
+    "name": d.brand_name,
+    "alternateName": ("MAX SYSTEM" if lang == "ar" else "ماكس سيستم للبرمجيات"),
+    "url": site ~ ("/en/" if lang == "en" else "/"),
+    "foundingDate": "2009",
+    "logo": site ~ "/assets/img/logo-mark.png",
+    "description": d.meta.home.description,
+    "areaServed": [{"@type": "Country", "name": "Saudi Arabia"}, {"@type": "Country", "name": "Egypt"}]
+  } | tojson }}</script>
+  <script type="application/ld+json">{{ {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": crumbs_ld
+  } | tojson }}</script>
+  {% block jsonld %}{% endblock %}
+</head>
+<body class="page-{{ key }}">
+  {# ───────── Loading screen: pure CSS (code icon + orbit + progress bar, 0→100% in 2s) so it can never get stuck ───────── #}
+  <div class="preloader" id="preloader" role="status" aria-live="polite" aria-label="{{ d.a11y.loading }}">
+    <div class="pl-grid" aria-hidden="true"></div>
+    <div class="pl-box">
+      <div class="pl-icon" aria-hidden="true">
+        <span class="pl-orbit pl-orbit-a"><i></i></span>
+        <span class="pl-orbit pl-orbit-b"><i></i></span>
+        <span class="pl-hex"></span>
+        <svg class="pl-code" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+          <path class="pl-p1" pathLength="1" d="M22 18 8 32l14 14"/>
+          <path class="pl-p2" pathLength="1" d="M42 18l14 14-14 14"/>
+          <path class="pl-p3" pathLength="1" d="M35 14 29 50"/>
+        </svg>
+      </div>
+      <div class="pl-name" dir="ltr">MAX <span>SYSTEM</span></div>
+      <div class="pl-bar" aria-hidden="true"><span></span></div>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">{{ d.a11y.skip }}</a>
+
+  {# ───────── Top bar (icons; numbers/links come from assets/js/config.js) ───────── #}
+  <div class="topbar" role="region" aria-label="{{ d.topbar.label }}">
+    <div class="container topbar-inner">
+      <p class="topbar-note"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> {{ d.topbar.markets }}</p>
+      <ul class="topbar-links">
+        <li><a class="tb-link" data-tb="phone" href="{{ u('contact.html') }}"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>{{ d.topbar.call }}</span></a></li>
+        <li><a class="tb-link" data-tb="whatsapp" href="{{ u('contact.html') }}"><i class="bi bi-whatsapp" aria-hidden="true"></i><span>{{ d.topbar.whatsapp }}</span></a></li>
+        <li><a class="tb-link" data-tb="email" href="{{ u('contact.html') }}"><i class="bi bi-envelope-fill" aria-hidden="true"></i><span>{{ d.topbar.email }}</span></a></li>
+      </ul>
+      <ul class="topbar-social" data-social-list></ul>
+    </div>
+  </div>
+
+  {# ───────── Header ───────── #}
+  <header class="site-header" id="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="{{ d.a11y.mainNav }}">
+      <div class="container">
+        <a class="navbar-brand brand" href="{{ u('index.html') }}" aria-label="{{ d.brand_name }}">
+          <img class="brand-mark" src="{{ A }}assets/img/logo-mark.png" width="44" height="44" alt="">
+          <span class="brand-text">
+            <strong dir="ltr">MAX <span>SYSTEM</span></strong>
+            <small>{{ d.brand_name if lang == 'ar' else d.brand.tagline }}</small>
+          </span>
+        </a>
+
+        <div class="d-flex align-items-center gap-2 order-lg-3">
+          <a class="lang-switch d-none d-sm-inline-flex" href="{{ alt_url(file) }}" hreflang="{{ other }}" lang="{{ other }}" data-lang-switch="{{ other }}" aria-label="{{ d.a11y.switchLanguage }}">
+            <i class="bi bi-translate" aria-hidden="true"></i> {{ d.nav.language }}
+          </a>
+          <a class="btn btn-cta btn-sm d-none d-md-inline-flex" href="{{ u('contact.html') }}">{{ d.nav.consultation }}</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="{{ d.a11y.openMenu }}">
+            <i class="bi bi-list" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse order-lg-2" id="mainNav">
+          <ul class="navbar-nav mx-lg-auto">
+            <li class="nav-item"><a class="nav-link {{ 'active' if key == 'home' }}" {{ 'aria-current=page' if key == 'home' }} href="{{ u('index.html') }}">{{ d.nav.home }}</a></li>
+            <li class="nav-item"><a class="nav-link {{ 'active' if key == 'about' }}" {{ 'aria-current=page' if key == 'about' }} href="{{ u('about.html') }}">{{ d.nav.about }}</a></li>
+            <li class="nav-item dropdown mega">
+              <button class="nav-link dropdown-toggle {{ 'active' if key == 'services' }}" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" id="servicesMenuBtn">{{ d.nav.services }}</button>
+              <div class="dropdown-menu mega-menu" aria-labelledby="servicesMenuBtn">
+                <ul class="mega-grid">
+                  {% for s in services %}
+                  <li><a class="mega-item" href="{{ u('service-' ~ s.slug ~ '.html') }}">{{ s.title[lang] }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link {{ 'active' if key == 'projects' }}" {{ 'aria-current=page' if key == 'projects' }} href="{{ u('projects.html') }}">{{ d.nav.projects }}</a></li>
+            <li class="nav-item"><a class="nav-link {{ 'active' if key == 'blog' }}" {{ 'aria-current=page' if key == 'blog' }} href="{{ u('blog.html') }}">{{ d.nav.blog }}</a></li>
+            <li class="nav-item"><a class="nav-link {{ 'active' if key == 'contact' }}" {{ 'aria-current=page' if key == 'contact' }} href="{{ u('contact.html') }}">{{ d.nav.contact }}</a></li>
+          </ul>
+          <div class="nav-mobile-actions d-lg-none">
+            <a class="btn btn-cta w-100" href="{{ u('contact.html') }}">{{ d.nav.consultation }}</a>
+            <a class="lang-switch w-100 justify-content-center" href="{{ alt_url(file) }}" hreflang="{{ other }}" lang="{{ other }}" data-lang-switch="{{ other }}" aria-label="{{ d.a11y.switchLanguage }}"><i class="bi bi-translate" aria-hidden="true"></i> {{ d.nav.language }}</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    {% block content %}{% endblock %}
+  </main>
+
+  {# ───────── Footer ───────── #}
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <a class="footer-logo" href="{{ u('index.html') }}" aria-label="{{ d.brand_name }}">
+            <picture>
+              <source srcset="{{ A }}assets/img/logo.webp" type="image/webp">
+              <img src="{{ A }}assets/img/logo.png" width="144" height="109" loading="lazy" alt="{{ d.brand.logoAlt }}">
+            </picture>
+          </a>
+          <p class="footer-about">{{ d.footer.about }}</p>
+          <p class="footer-since"><i class="bi bi-patch-check-fill" aria-hidden="true"></i> {{ d.hero2.sinceLong }}</p>
+          <p class="footer-markets"><i class="bi bi-geo-alt" aria-hidden="true"></i> {{ d.markets.strip }}: {{ d.markets.sa.short }} · {{ d.markets.eg.short }}</p>
+          <div class="footer-social-wrap" data-social-wrap hidden>
+            <p class="footer-h">{{ d.footer.followUs }}</p>
+            <ul class="social-list" data-social-list></ul>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h2 class="footer-h">{{ d.footer.quickLinks }}</h2>
+          <ul class="footer-links">
+            <li><a href="{{ u('index.html') }}">{{ d.nav.home }}</a></li>
+            <li><a href="{{ u('about.html') }}">{{ d.nav.about }}</a></li>
+            <li><a href="{{ u('services.html') }}">{{ d.nav.services }}</a></li>
+            <li><a href="{{ u('projects.html') }}">{{ d.nav.projects }}</a></li>
+            <li><a href="{{ u('blog.html') }}">{{ d.nav.blog }}</a></li>
+            <li><a href="{{ u('contact.html') }}">{{ d.nav.contact }}</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h2 class="footer-h">{{ d.footer.services }}</h2>
+          <ul class="footer-links">
+            {% for s in services %}<li><a href="{{ u('service-' ~ s.slug ~ '.html') }}">{{ s.title[lang] }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h2 class="footer-h">{{ d.footer.contact }}</h2>
+          <ul class="footer-contact" data-contact-list>
+            <li class="muted" data-contact-pending>{{ d.footer.contactPending }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+        <p class="mb-0">© <span data-year>2026</span> {{ d.brand_name }}. {{ d.footer.rights }}</p>
+        <ul class="footer-legal">
+          <li><a href="{{ u('privacy-policy.html') }}">{{ d.footer.privacy }}</a></li>
+          <li><a href="{{ u('terms-and-conditions.html') }}">{{ d.footer.terms }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.MS_LANG = {{ lang | tojson }}; window.MS_I18N = {{ js_i18n | tojson }}; window.MS_ASSETS = {{ A | tojson }};</script>
+  <script src="{{ cdn.bs_js }}"></script>
+  <script src="{{ A }}assets/js/config.js"></script>
+  <script src="{{ A }}assets/js/main.js" defer></script>
+  {% block scripts_extra %}{% endblock %}
+</body>
+</html>

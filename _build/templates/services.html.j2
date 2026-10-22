@@ -1,0 +1,34 @@
+{% extends "base.html.j2" %}
+{% from "_macros.html.j2" import icon, heading, page_hero, cta_band with context %}
+
+{% block content %}
+{{ page_hero(d.servicesPage.title, d.servicesPage.subtitle) }}
+
+<section class="section">
+  <div class="container">
+    <p class="text-center section-sub mx-auto" data-reveal>{{ d.servicesPage.intro }}</p>
+    <ul class="row g-4 mt-3 list-unstyled" data-stagger>
+      {% for s in services %}
+      <li class="col-lg-6" data-reveal="{{ 'start' if loop.index is odd else 'end' }}">
+        <article class="card-x service-card service-wide h-100">
+          <div class="d-flex gap-3 align-items-start">
+            <span class="icon-box icon-grad icon-lg"><i class="bi {{ icons[s.icon] }}" aria-hidden="true"></i></span>
+            <div>
+              <h2 class="h4 fw-bold"><a class="stretched-link" href="{{ u('service-' ~ s.slug ~ '.html') }}">{{ s.title[lang] }}</a></h2>
+              <p>{{ s.intro[lang] }}</p>
+            </div>
+          </div>
+          <ul class="tick-list two-col">
+            {% for it in s['items'][:6] %}<li><i class="bi bi-check2" aria-hidden="true"></i> {{ it.title[lang] }}</li>
+            {% endfor %}
+          </ul>
+          <span class="more-link">{{ d.servicesSection.viewService }} <i class="bi bi-arrow-{{ 'left' if lang == 'ar' else 'right' }}" aria-hidden="true"></i></span>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{{ cta_band() }}
+{% endblock %}
