@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.your-domain.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/services.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/services.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/service-web-development.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-web-development.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/service-web-development.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-web-development.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/service-digital-marketing.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-digital-marketing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-digital-marketing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-digital-marketing.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/service-digital-marketing.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-digital-marketing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-digital-marketing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-digital-marketing.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/service-paid-advertising.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-paid-advertising.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-paid-advertising.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-paid-advertising.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/service-paid-advertising.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-paid-advertising.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-paid-advertising.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-paid-advertising.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/service-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-seo.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/service-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-seo.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/service-data-analytics.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-data-analytics.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-data-analytics.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-data-analytics.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/service-data-analytics.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-data-analytics.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-data-analytics.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-data-analytics.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/service-tracking-measurement.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-tracking-measurement.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-tracking-measurement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-tracking-measurement.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/service-tracking-measurement.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-tracking-measurement.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-tracking-measurement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-tracking-measurement.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/service-additional-services.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-additional-services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-additional-services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-additional-services.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/service-additional-services.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/service-additional-services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/service-additional-services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/service-additional-services.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/projects.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/projects.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/projects.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/projects.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/blog-ga4-vs-google-tag-manager.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-ga4-vs-google-tag-manager.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-ga4-vs-google-tag-manager.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-ga4-vs-google-tag-manager.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/blog-ga4-vs-google-tag-manager.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-ga4-vs-google-tag-manager.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-ga4-vs-google-tag-manager.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-ga4-vs-google-tag-manager.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/blog-technical-seo-basics.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-technical-seo-basics.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-technical-seo-basics.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-technical-seo-basics.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/blog-technical-seo-basics.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-technical-seo-basics.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-technical-seo-basics.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-technical-seo-basics.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/blog-website-or-online-store.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-website-or-online-store.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-website-or-online-store.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-website-or-online-store.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/blog-website-or-online-store.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-website-or-online-store.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-website-or-online-store.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-website-or-online-store.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/blog-ad-budget-vs-management-fee.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-ad-budget-vs-management-fee.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-ad-budget-vs-management-fee.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-ad-budget-vs-management-fee.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/blog-ad-budget-vs-management-fee.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-ad-budget-vs-management-fee.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-ad-budget-vs-management-fee.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-ad-budget-vs-management-fee.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/blog-useful-kpi-dashboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-useful-kpi-dashboard.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-useful-kpi-dashboard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-useful-kpi-dashboard.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/blog-useful-kpi-dashboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-useful-kpi-dashboard.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-useful-kpi-dashboard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-useful-kpi-dashboard.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/blog-website-speed-and-ux-checklist.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-website-speed-and-ux-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-website-speed-and-ux-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-website-speed-and-ux-checklist.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/blog-website-speed-and-ux-checklist.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/blog-website-speed-and-ux-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/blog-website-speed-and-ux-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/blog-website-speed-and-ux-checklist.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/privacy-policy.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/privacy-policy.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/terms-and-conditions.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/terms-and-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/terms-and-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/terms-and-conditions.html"/>
+  </url>
+  <url>
+    <loc>https://www.your-domain.com/en/terms-and-conditions.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.your-domain.com/terms-and-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.your-domain.com/en/terms-and-conditions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.your-domain.com/terms-and-conditions.html"/>
+  </url>
+</urlset>
