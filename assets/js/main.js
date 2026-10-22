@@ -36,9 +36,9 @@
   /* ---------- preloader + hero delay ---------- */
   var first = !root.hasAttribute('data-preloaded');
   if (first) {
-    root.style.setProperty('--hero-delay', '2.1s');
+    root.style.setProperty('--hero-delay', '3.1s');
     setTimeout(function () { root.style.removeProperty('--hero-delay'); }, 4200);
-    safe(function () { sessionStorage.setItem('ms-preloaded', '1'); });
+    safe(function () { sessionStorage.setItem('ms-preloaded', '2'); });
     setTimeout(function () { var p = $('#preloader'); if (p) p.remove(); }, 2900);
   } else { var p0 = $('#preloader'); if (p0) p0.remove(); }
 
